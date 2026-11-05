@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Calculadora de Juros Compostos | Simule seus investimentos</title>
+    <meta
+      name="description"
+      content="Simule gratuitamente quanto seu dinheiro pode render com juros compostos: valor inicial, aportes mensais, taxa e período, com gráfico e tabela mês a mês."
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Calculadora de Juros Compostos" />
+    <meta
+      property="og:description"
+      content="Veja a evolução do seu patrimônio com aportes mensais e juros compostos."
+    />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/main.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="./" aria-label="Página inicial">
+          <svg class="brand__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 17l6-6 4 4 8-8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M15 7h6v6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>Rende+</span>
+        </a>
+        <nav aria-label="Principal">
+          <ul class="nav">
+            <li><a href="./" aria-current="page">Juros compostos</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" class="container">
+      <section class="intro" aria-labelledby="titulo">
+        <h1 id="titulo">Calculadora de juros compostos</h1>
+        <p>
+          Descubra quanto seu dinheiro pode render informando o valor inicial, os aportes mensais,
+          a taxa de juros e o período do investimento.
+        </p>
+      </section>
+
+      <div class="layout">
+        <section class="card" aria-labelledby="titulo-form">
+          <h2 id="titulo-form" class="card__title">Simulação</h2>
+          <form id="calc-form" novalidate>
+            <div class="field">
+              <label for="initial">Valor inicial</label>
+              <div class="input-group">
+                <span class="input-group__addon" aria-hidden="true">R$</span>
+                <input id="initial" name="initial" type="text" inputmode="decimal" autocomplete="off"
+                  placeholder="0,00" value="1.000,00" aria-describedby="initial-error" />
+              </div>
+              <p class="field__error" id="initial-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="monthly">Aporte mensal <span class="field__hint">(opcional)</span></label>
+              <div class="input-group">
+                <span class="input-group__addon" aria-hidden="true">R$</span>
+                <input id="monthly" name="monthly" type="text" inputmode="decimal" autocomplete="off"
+                  placeholder="0,00" value="500,00" aria-describedby="monthly-error" />
+              </div>
+              <p class="field__error" id="monthly-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="rate">Taxa de juros</label>
+              <div class="input-group">
+                <span class="input-group__addon" aria-hidden="true">%</span>
+                <input id="rate" name="rate" type="text" inputmode="decimal" autocomplete="off"
+                  placeholder="0,00" value="10" aria-describedby="rate-error" />
+                <select id="rateUnit" name="rateUnit" aria-label="Unidade da taxa">
+                  <option value="anual" selected>ao ano</option>
+                  <option value="mensal">ao mês</option>
+                </select>
+              </div>
+              <p class="field__error" id="rate-error" role="alert"></p>
+            </div>
+
+            <div class="field">
+              <label for="period">Período</label>
+              <div class="input-group">
+                <input id="period" name="period" type="text" inputmode="numeric" autocomplete="off"
+                  placeholder="10" value="10" aria-describedby="period-error" />
+                <select id="periodUnit" name="periodUnit" aria-label="Unidade do período">
+                  <option value="anos" selected>anos</option>
+                  <option value="meses">meses</option>
+                </select>
+              </div>
+              <p class="field__error" id="period-error" role="alert"></p>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary">Calcular</button>
+              <button type="reset" class="btn btn--ghost">Limpar</button>
+            </div>
+          </form>
+        </section>
+
+        <section class="results" aria-labelledby="titulo-resultado" aria-live="polite">
+          <h2 id="titulo-resultado" class="visually-hidden">Resultado</h2>
+          <div class="summary">
+            <article class="stat stat--highlight">
+              <h3 class="stat__label">Valor total final</h3>
+              <p class="stat__value" id="out-final">—</p>
+            </article>
+            <article class="stat">
+              <h3 class="stat__label"><span class="dot dot--invested" aria-hidden="true"></span>Total investido</h3>
+              <p class="stat__value" id="out-invested">—</p>
+            </article>
+            <article class="stat">
+              <h3 class="stat__label"><span class="dot dot--interest" aria-hidden="true"></span>Total em juros</h3>
+              <p class="stat__value" id="out-interest">—</p>
+            </article>
+          </div>
+          <p class="results__note" id="out-note"></p>
+
+          <div class="card chart-card">
+            <h3 class="card__title">Evolução do patrimônio</h3>
+            <div class="chart" id="chart" role="img" aria-label="Gráfico da evolução do patrimônio"></div>
+          </div>
+        </section>
+      </div>
+
+      <section class="card table-card" aria-labelledby="titulo-tabela">
+        <div class="table-card__head">
+          <h2 id="titulo-tabela" class="card__title">Tabela detalhada</h2>
+          <div class="segmented" role="radiogroup" aria-label="Agrupar tabela por">
+            <label><input type="radio" name="tableMode" value="anos" checked /><span>Anual</span></label>
+            <label><input type="radio" name="tableMode" value="meses" /><span>Mensal</span></label>
+          </div>
+        </div>
+        <div class="table-wrap" tabindex="0" role="region" aria-labelledby="titulo-tabela">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col" id="col-period">Ano</th>
+                <th scope="col">Juros no período</th>
+                <th scope="col">Total investido</th>
+                <th scope="col">Total em juros</th>
+                <th scope="col">Saldo</th>
+              </tr>
+            </thead>
+            <tbody id="table-body"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="card explain" aria-labelledby="titulo-como">
+        <h2 id="titulo-como" class="card__title">Como o cálculo é feito</h2>
+        <p>
+          Os juros compostos incidem sobre o saldo acumulado — ou seja, os juros de um mês passam a
+          render juros nos meses seguintes. A cada mês o saldo é atualizado assim:
+        </p>
+        <p class="formula"><code>saldo = saldo anterior × (1 + i) + aporte mensal</code></p>
+        <p>
+          Quando a taxa é informada ao ano, ela é convertida para a taxa mensal equivalente:
+          <code>i = (1 + taxa anual)<sup>1/12</sup> − 1</code>. Os aportes são considerados no final
+          de cada mês. A simulação não considera impostos, taxas ou inflação.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Simulação apenas educativa; não constitui recomendação de investimento.</p>
+      </div>
+    </footer>
+  </body>
+</html>

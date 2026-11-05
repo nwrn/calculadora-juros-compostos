@@ -1,0 +1,12 @@
+{
+  "name": "calculadora-juros-compostos",
+  "version": "1.0.0",
+  "description": "Calculadora de juros compostos em HTML, CSS e JavaScript puro.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "node --test \"tests/**/*.test.js\"",
+    "start": "npx --yes serve ."
+  },
+  "license": "MIT"
+}
