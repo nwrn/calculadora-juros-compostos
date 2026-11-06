@@ -661,3 +661,81 @@ code {
     transition: background-color 0.15s, border-color 0.15s, box-shadow 0.15s;
   }
 }
+
+/* ==========================================================================
+   Cotações
+   ========================================================================== */
+.cotacoes-layout {
+  display: grid;
+  gap: 16px;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 700px) {
+  .cotacoes-layout {
+    grid-template-columns: 320px 1fr;
+    align-items: start;
+  }
+}
+
+.cotacao-resultado {
+  min-height: 120px;
+}
+
+.cotacao-card {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.cotacao-header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.cotacao-ticker {
+  font-size: 1.35rem;
+  font-weight: 700;
+  letter-spacing: 0.03em;
+}
+
+.cotacao-badge {
+  font-size: 0.75rem;
+  font-weight: 600;
+  padding: 2px 8px;
+  border-radius: 999px;
+  background: var(--primary-soft);
+  color: var(--primary-strong);
+}
+
+.cotacao-price {
+  margin: 0;
+  font-size: clamp(1.6rem, 4vw, 2.2rem);
+  font-weight: 700;
+  font-variant-numeric: tabular-nums;
+  color: var(--primary-strong);
+}
+
+.cotacao-asof {
+  margin: 0;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+}
+
+.cotacao-loading {
+  margin: 0;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.cotacao-card--error {
+  border-color: var(--danger);
+  background: color-mix(in srgb, var(--danger) 8%, var(--surface));
+}
+
+.cotacao-error-msg {
+  margin: 0;
+  color: var(--danger);
+  font-size: 0.925rem;
+}
