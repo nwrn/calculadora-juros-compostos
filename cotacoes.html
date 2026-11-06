@@ -86,6 +86,21 @@
         </section>
       </div>
 
+      <div id="grafico-wrap" class="grafico-wrap card" hidden>
+        <div class="grafico-header">
+          <h3 class="card__title">Histórico de preços</h3>
+          <div class="range-selector" role="group" aria-label="Período do gráfico">
+            <button class="range-btn range-btn--active" data-range="1m" aria-pressed="true">1M</button>
+            <button class="range-btn" data-range="3m" aria-pressed="false">3M</button>
+            <button class="range-btn" data-range="6m" aria-pressed="false">6M</button>
+            <button class="range-btn" data-range="1y" aria-pressed="false">1A</button>
+            <button class="range-btn" data-range="5y" aria-pressed="false">5A</button>
+          </div>
+        </div>
+        <div id="grafico-container" class="grafico-container" role="img" aria-label="Gráfico histórico de preços"></div>
+        <div class="grafico-minmax" aria-live="polite"></div>
+      </div>
+
       <section class="card explain" aria-labelledby="titulo-sobre">
         <h2 id="titulo-sobre" class="card__title">Sobre os dados</h2>
         <p>
