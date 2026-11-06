@@ -1,0 +1,105 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Cotações B3 | Rende+</title>
+    <meta
+      name="description"
+      content="Consulte a cotação atual de ações e FIIs da B3 em tempo real."
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="module" src="js/cotacoes.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="./" aria-label="Página inicial">
+          <svg class="brand__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 17l6-6 4 4 8-8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M15 7h6v6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>Rende+</span>
+        </a>
+        <nav aria-label="Principal">
+          <ul class="nav">
+            <li><a href="./">Juros compostos</a></li>
+            <li><a href="cotacoes.html" aria-current="page">Cotações</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" class="container">
+      <section class="intro" aria-labelledby="titulo">
+        <h1 id="titulo">Cotações B3</h1>
+        <p>
+          Consulte a cotação atual de ações e FIIs negociados na B3. Os dados são obtidos do
+          Yahoo Finance com fallback para o Fundamentus.
+        </p>
+      </section>
+
+      <div class="cotacoes-layout">
+        <section class="card" aria-labelledby="titulo-busca">
+          <h2 id="titulo-busca" class="card__title">Buscar ativo</h2>
+          <form id="cotacao-form" novalidate>
+            <div class="field">
+              <label for="ticker">Ticker</label>
+              <div class="input-group" id="ticker-group">
+                <input
+                  id="ticker"
+                  name="ticker"
+                  type="text"
+                  inputmode="text"
+                  autocomplete="off"
+                  autocapitalize="characters"
+                  spellcheck="false"
+                  placeholder="ex: BBAS3"
+                  aria-describedby="ticker-error"
+                />
+                <select id="assetType" name="assetType" aria-label="Tipo de ativo">
+                  <option value="stocks">Ação</option>
+                  <option value="fiis">FII</option>
+                </select>
+              </div>
+              <p class="field__error" id="ticker-error" role="alert"></p>
+            </div>
+
+            <div class="form-actions">
+              <button type="submit" class="btn btn--primary" id="buscar-btn">Buscar cotação</button>
+            </div>
+          </form>
+        </section>
+
+        <section
+          class="cotacao-resultado"
+          id="resultado"
+          aria-labelledby="titulo-resultado"
+          aria-live="polite"
+        >
+          <h2 id="titulo-resultado" class="visually-hidden">Resultado</h2>
+          <div id="resultado-conteudo"></div>
+        </section>
+      </div>
+
+      <section class="card explain" aria-labelledby="titulo-sobre">
+        <h2 id="titulo-sobre" class="card__title">Sobre os dados</h2>
+        <p>
+          As cotações são obtidas em tempo real via API própria conectada ao Yahoo Finance. Em caso
+          de indisponibilidade, o Fundamentus é utilizado como fonte alternativa. Os preços são
+          exibidos em Reais (BRL) e refletem o último valor negociado disponível.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Simulação apenas educativa; não constitui recomendação de investimento.</p>
+      </div>
+    </footer>
+  </body>
+</html>
