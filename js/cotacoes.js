@@ -18,6 +18,7 @@ const RANGE_LABEL = { '1m': '1M', '3m': '3M', '6m': '6M', '1y': '1A', '5y': '5A'
 let currentAssetType = 'stocks';
 let currentTicker = '';
 let currentRange = '1m';
+let currentCotacao = null;
 
 function formatCurrency(value) {
   return new Intl.NumberFormat('pt-BR', { style: 'currency', currency: 'BRL' }).format(value);
@@ -66,8 +67,8 @@ function renderLoading() {
 }
 
 function renderResult(data, variation) {
-  const sourceLabel = SOURCE_LABEL[data.source] ?? data.source;
-  const asOf = data.asOf ? formatDateTime(data.asOf) : '—';
+  const sourceLabel = data.source ? (SOURCE_LABEL[data.source] ?? data.source) : '';
+  const asOf = data.asOf ? formatDateTime(data.asOf) : null;
   const varClass = variation >= 0 ? 'cotacao-variacao--up' : 'cotacao-variacao--down';
   const varText = variation != null ? `<span class="cotacao-variacao ${varClass}">${formatVariation(variation)}</span>` : '';
 
@@ -75,13 +76,13 @@ function renderResult(data, variation) {
     <div class="cotacao-card card">
       <div class="cotacao-header">
         <span class="cotacao-ticker">${data.ticker}</span>
-        <span class="cotacao-badge">${sourceLabel}</span>
+        ${sourceLabel ? `<span class="cotacao-badge">${sourceLabel}</span>` : ''}
       </div>
       <div class="cotacao-price-row">
         <p class="cotacao-price">${formatCurrency(data.price)}</p>
         ${varText}
       </div>
-      <p class="cotacao-asof">Atualizado em ${asOf}</p>
+      ${asOf ? `<p class="cotacao-asof">Atualizado em ${asOf}</p>` : ''}
     </div>`;
 }
 
@@ -135,6 +136,20 @@ function setActiveRange(range) {
   });
 }
 
+function updateVariation(variation) {
+  const varEl = resultadoConteudo.querySelector('.cotacao-variacao');
+  const row = resultadoConteudo.querySelector('.cotacao-price-row');
+  if (!row) return;
+  if (varEl) varEl.remove();
+  if (variation != null) {
+    const varClass = variation >= 0 ? 'cotacao-variacao--up' : 'cotacao-variacao--down';
+    const span = document.createElement('span');
+    span.className = `cotacao-variacao ${varClass}`;
+    span.textContent = formatVariation(variation);
+    row.appendChild(span);
+  }
+}
+
 async function loadHistory(range) {
   setActiveRange(range);
   renderGraficoLoading();
@@ -143,7 +158,7 @@ async function loadHistory(range) {
     const variation = history.points.length >= 2
       ? ((history.points.at(-1).close - history.points[0].close) / history.points[0].close) * 100
       : null;
-    renderResult({ ticker: currentTicker, source: null, price: history.points.at(-1)?.close ?? 0, asOf: null }, variation);
+    updateVariation(variation);
     renderGrafico(history);
   } catch {
     renderGraficoError();
@@ -166,6 +181,7 @@ form.addEventListener('submit', async (e) => {
 
   try {
     const data = await fetchCotacao(assetType, rawTicker);
+    currentCotacao = data;
     renderResult(data, null);
     loadHistory(currentRange);
   } catch (err) {
