@@ -1,6 +1,6 @@
 {
   "name": "calculadora-juros-compostos",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Calculadora de juros compostos em HTML, CSS e JavaScript puro.",
   "type": "module",
   "private": true,
