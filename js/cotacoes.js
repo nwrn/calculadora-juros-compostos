@@ -1,4 +1,5 @@
 import { renderHistoryChart } from './chart-cotacao.js';
+import { loadFundamentals } from './fundamentals.js';
 
 const API_BASE = 'http://localhost:8080';
 
@@ -184,6 +185,7 @@ form.addEventListener('submit', async (e) => {
     currentCotacao = data;
     renderResult(data, null);
     loadHistory(currentRange);
+    loadFundamentals(currentTicker, currentAssetType);
   } catch (err) {
     renderError(err?.status, rawTicker);
   } finally {
