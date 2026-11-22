@@ -71,3 +71,7 @@ MIT
 ## Search Console
 
 A propriedade `https://nwrn.github.io/calculadora-juros-compostos/` está verificada no Google Search Console (2026-11-22) pelo arquivo `googlefce664b5abe69b5f.html`. A meta tag `google-site-verification` em `index.html` serve como segundo método. **Não remova nenhum dos dois**, ou a propriedade perde a verificação. O sitemap enviado é `sitemap.xml` (índice de sitemaps).
+
+## IndexNow
+
+O arquivo `126a069c364fb1c929add53a17b1aa48.txt` é a chave pública do [IndexNow](https://www.indexnow.org/) (Bing, Yandex e outros buscadores). O fin-news-publisher avisa por ele quando publica ou retira um artigo. **Não remova o arquivo**: sem ele os avisos são recusados.
