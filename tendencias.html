@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Tendências do mercado financeiro | Rende+</title>
+    <meta
+      name="description"
+      content="Temas em alta no mercado financeiro: Ibovespa, IFIX, juros, câmbio, commodities e geopolítica, atualizados 3 vezes por dia."
+    />
+    <meta name="theme-color" content="#0f766e" />
+    <link rel="canonical" href="https://nwrn.github.io/calculadora-juros-compostos/tendencias.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Tendências do mercado financeiro | Rende+" />
+    <meta property="og:description" content="Temas em alta sobre Ibovespa, FIIs, juros, câmbio e geopolítica." />
+    <meta property="og:url" content="https://nwrn.github.io/calculadora-juros-compostos/tendencias.html" />
+    <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="css/style.css" />
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "Dataset",
+        "name": "Tendências do mercado financeiro",
+        "description": "Temas financeiros em alta coletados do Google Trends, Wikimedia e feeds de notícias de 5 continentes, com pautas de conteúdo sugeridas.",
+        "url": "https://nwrn.github.io/calculadora-juros-compostos/tendencias.html",
+        "inLanguage": "pt-BR",
+        "isAccessibleForFree": true,
+        "distribution": [
+          { "@type": "DataDownload", "encodingFormat": "text/csv", "contentUrl": "https://nwrn.github.io/calculadora-juros-compostos/data/tendencias/content-kanban-latest.csv" },
+          { "@type": "DataDownload", "encodingFormat": "application/json", "contentUrl": "https://nwrn.github.io/calculadora-juros-compostos/data/tendencias/trends-latest.json" }
+        ]
+      }
+    </script>
+    <script type="module" src="js/tendencias.js"></script>
+  </head>
+  <body>
+    <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+
+    <header class="site-header">
+      <div class="container site-header__inner">
+        <a class="brand" href="./" aria-label="Página inicial">
+          <svg class="brand__icon" viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M3 17l6-6 4 4 8-8" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+            <path d="M15 7h6v6" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+          <span>Rende+</span>
+        </a>
+        <nav aria-label="Principal">
+          <ul class="nav">
+            <li><a href="./">Juros compostos</a></li>
+            <li><a href="cotacoes.html">Cotações</a></li>
+            <li><a href="tendencias.html" aria-current="page">Tendências</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+
+    <main id="conteudo" class="container">
+      <section class="intro" aria-labelledby="titulo">
+        <h1 id="titulo">Tendências do mercado financeiro</h1>
+        <p>
+          Os temas que mais estão chamando atenção agora sobre Ibovespa, fundos imobiliários, juros,
+          câmbio, commodities e geopolítica, coletados de buscas, Wikipédia e notícias de vários países.
+        </p>
+      </section>
+
+      <p id="estado" class="card tend-estado" role="alert" hidden></p>
+
+      <div id="conteudo-tendencias" hidden>
+        <section class="card" aria-labelledby="titulo-mercado">
+          <div class="tend-header">
+            <h2 id="titulo-mercado" class="card__title">Mercado hoje</h2>
+            <p id="atualizado" class="muted"></p>
+          </div>
+          <ul id="mercado" class="tend-stats"></ul>
+          <p id="fontes-aviso" class="muted" hidden></p>
+        </section>
+
+        <section class="card" aria-labelledby="titulo-filtros">
+          <h2 id="titulo-filtros" class="card__title">Filtrar</h2>
+          <form id="filtros" class="tend-filtros">
+            <div class="field">
+              <label for="f-categoria">Categoria</label>
+              <select id="f-categoria"><option value="">Todas</option></select>
+            </div>
+            <div class="field">
+              <label for="f-pais">País / idioma</label>
+              <select id="f-pais"><option value="">Todos</option></select>
+            </div>
+            <div class="field">
+              <label for="f-fonte">Fonte</label>
+              <select id="f-fonte"><option value="">Todas</option></select>
+            </div>
+            <div class="field">
+              <label for="f-score">Score mínimo</label>
+              <select id="f-score">
+                <option value="">Qualquer</option>
+                <option value="0.35">0,35 (média)</option>
+                <option value="0.6">0,60 (alta)</option>
+              </select>
+            </div>
+          </form>
+          <p id="contagem" class="muted" aria-live="polite"></p>
+          <p class="tend-downloads">
+            <a class="btn" href="data/tendencias/content-kanban-latest.csv" download>Baixar .csv</a>
+            <a class="btn" href="data/tendencias/content-canvas-latest.md" download>Baixar .md</a>
+          </p>
+        </section>
+
+        <section class="card" aria-labelledby="titulo-ranking">
+          <h2 id="titulo-ranking" class="card__title">Ranking de temas</h2>
+          <div class="tend-table-wrap">
+            <table class="tend-table">
+              <thead>
+                <tr>
+                  <th scope="col">Score</th>
+                  <th scope="col">Tema e pauta sugerida</th>
+                  <th scope="col">Categoria</th>
+                  <th scope="col">Ativos</th>
+                  <th scope="col">Fontes</th>
+                  <th scope="col">Prioridade</th>
+                </tr>
+              </thead>
+              <tbody id="ranking-body"></tbody>
+            </table>
+          </div>
+          <p id="ranking-vazio" class="muted" hidden>Nenhum tema com esses filtros.</p>
+        </section>
+
+        <section class="card" aria-labelledby="titulo-kanban">
+          <h2 id="titulo-kanban" class="card__title">Kanban de pautas</h2>
+          <div id="kanban" class="kanban"></div>
+        </section>
+
+        <section class="card" aria-labelledby="titulo-canvas">
+          <h2 id="titulo-canvas" class="card__title">Business Model Canvas de conteúdo</h2>
+          <div id="canvas" class="bmc"></div>
+        </section>
+      </div>
+
+      <section class="card explain" aria-labelledby="titulo-sobre">
+        <h2 id="titulo-sobre" class="card__title">Como funciona</h2>
+        <p>
+          Três vezes por dia um coletor automático lê o Google Trends de 8 países, os artigos mais vistos da
+          Wikipédia, feeds de notícias financeiras de 5 continentes e indicadores do Banco Central. Cada tema
+          recebe uma nota de 0 a 1 que combina volume, velocidade, quantas fontes concordam e o movimento do
+          mercado no dia.
+        </p>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">
+        <p>Conteúdo apenas educativo; não constitui recomendação de investimento.</p>
+      </div>
+    </footer>
+  </body>
+</html>

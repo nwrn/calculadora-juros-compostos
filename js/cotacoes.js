@@ -202,3 +202,11 @@ graficoWrap.querySelectorAll('.range-btn').forEach(btn => {
 tickerInput.addEventListener('input', () => {
   if (tickerInput.value.trim()) setFieldError(null);
 });
+
+// Links da página Tendências: cotacoes.html?ticker=PETR4 já abre a busca.
+const tickerParam = new URLSearchParams(window.location.search).get('ticker');
+if (tickerParam && /^[A-Za-z]{4}\d{1,2}$/.test(tickerParam)) {
+  tickerInput.value = tickerParam.toUpperCase();
+  assetTypeSelect.value = tickerParam.endsWith('11') ? 'fiis' : 'stocks';
+  form.requestSubmit();
+}

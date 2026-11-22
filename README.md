@@ -44,9 +44,21 @@ js/format.js        formatação e leitura de números pt-BR
 js/chart.js         gráfico SVG
 js/table.js         tabela detalhada
 js/main.js          integração com o DOM
+tendencias.html     página Tendências (temas em alta + Kanban + Canvas de pautas)
+js/tendencias-data.js  funções puras da página Tendências (filtros, agrupamentos)
+js/tendencias.js    integração da página Tendências com o DOM
+data/tendencias/    trends-latest.json, .md e .csv publicados pelo fin-trends-scraper
+sitemap.xml         sitemap para o Search Console
 tests/              testes unitários
 docs/PLANO.md       plano de implementação
 ```
+
+## Página Tendências
+
+`tendencias.html` lê `data/tendencias/trends-latest.json`, que é gerado 3 vezes por dia pelo repositório
+`nwrn/fin-trends-scraper` (GitHub Actions). Esse workflow copia o JSON, o `.md` e o `.csv` para cá quando o
+secret `CALCULADORA_PUBLISH_TOKEN` está configurado lá. Os arquivos versionados aqui são o último snapshot.
+O `cotacoes.html` aceita `?ticker=PETR4` para abrir já com a busca feita (usado pelos links da página).
 
 ## Licença
 
