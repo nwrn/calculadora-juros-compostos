@@ -1,4 +1,53 @@
 [ {
+  "topicId" : "ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026.html",
+  "title" : "IPOs e ofertas na bolsa: entenda o movimento de 2026",
+  "category" : "ACOES",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
+  "topicId" : "ibovespa",
+  "slug" : "ibovespa-guia-completo-e-como-afeta-seus-investimentos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ibovespa-guia-completo-e-como-afeta-seus-investimentos.html",
+  "title" : "Ibovespa: guia completo e como afeta seus investimentos",
+  "category" : "MERCADO_BR",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
+  "topicId" : "bitcoin",
+  "slug" : "bitcoin-criptomoedas-guia-investidor",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-criptomoedas-guia-investidor.html",
+  "title" : "Bitcoin e criptomoedas: guia do investidor brasileiro",
+  "category" : "CRIPTO",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
+  "topicId" : "petrobras",
+  "slug" : "petrobras-plano-us-115-bi-dividendos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/petrobras-plano-us-115-bi-dividendos.html",
+  "title" : "Petrobras: plano de US$ 115 bi e dividendos no radar",
+  "category" : "ACOES",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
+  "topicId" : "petroleo",
+  "slug" : "petroleo-como-afeta-seus-investimentos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/petroleo-como-afeta-seus-investimentos.html",
+  "title" : "Petróleo: preço, produção e o efeito nos seus investimentos",
+  "category" : "COMMODITIES",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
+  "topicId" : "wall-street",
+  "slug" : "sp-500-nasdaq-juros-eua-afeta-b3",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/sp-500-nasdaq-juros-eua-afeta-b3.html",
+  "title" : "S&P 500, Nasdaq e juros nos EUA: como isso afeta a B3",
+  "category" : "MACRO_GLOBAL",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
+  "topicId" : "bce",
+  "slug" : "banco-central-europeu-guia-juros-euro-impactos-brasil",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/banco-central-europeu-guia-juros-euro-impactos-brasil.html",
+  "title" : "Banco Central Europeu: entenda juros, euro e impactos no Brasil",
+  "category" : "MACRO_GLOBAL",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
   "topicId" : "guerra",
   "slug" : "guerras-e-conflitos-como-afetam-seus-investimentos",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/guerras-e-conflitos-como-afetam-seus-investimentos.html",
