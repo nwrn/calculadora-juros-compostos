@@ -67,3 +67,7 @@ O `cotacoes.html` aceita `?ticker=PETR4` para abrir já com a busca feita (usado
 ## Licença
 
 MIT
+
+## Search Console
+
+A propriedade `https://nwrn.github.io/calculadora-juros-compostos/` está verificada no Google Search Console (2026-11-22) pelo arquivo `googlefce664b5abe69b5f.html`. A meta tag `google-site-verification` em `index.html` serve como segundo método. **Não remova nenhum dos dois**, ou a propriedade perde a verificação. O sitemap enviado é `sitemap.xml` (índice de sitemaps).
