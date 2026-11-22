@@ -168,6 +168,20 @@ code {
   color: var(--primary);
 }
 
+/* Com 3 itens no menu, o cabeçalho quebra linha em telas estreitas em vez de transbordar. */
+@media (max-width: 560px) {
+  .site-header__inner {
+    flex-wrap: wrap;
+    gap: 4px 16px;
+    padding-block: 8px;
+  }
+
+  .nav {
+    flex-wrap: wrap;
+    gap: 4px 14px;
+  }
+}
+
 .site-footer {
   margin-top: 48px;
   padding-block: 24px;
@@ -1033,4 +1047,252 @@ code {
   font-size: 0.875rem;
   padding: 8px 0;
   margin: 0;
+}
+
+/* ==========================================================================
+   Tendências (tendencias.html)
+   ========================================================================== */
+#conteudo-tendencias > .card,
+.tend-estado {
+  margin-top: 16px;
+}
+
+.muted {
+  color: var(--text-muted);
+  font-size: 0.875rem;
+}
+
+.tend-header {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 8px;
+}
+
+.tend-header .card__title,
+.tend-header p {
+  margin: 0;
+}
+
+.tend-stats {
+  list-style: none;
+  padding: 0;
+  margin: 16px 0 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+}
+
+.tend-stat {
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  border-radius: 8px;
+  background: var(--surface-2);
+}
+
+.tend-stat span {
+  color: var(--text-muted);
+  font-size: 0.85rem;
+}
+
+.tend-stat strong {
+  font-size: 1.25rem;
+}
+
+.tend-stat.is-up strong {
+  color: var(--primary);
+}
+
+.tend-stat.is-down strong {
+  color: var(--danger);
+}
+
+.tend-filtros {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+  gap: 0 16px;
+}
+
+.tend-filtros select {
+  font: inherit;
+  color: inherit;
+  width: 100%;
+  min-height: 44px;
+  padding: 8px 10px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface);
+}
+
+.tend-downloads {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 8px 0 0;
+}
+
+.tend-downloads .btn {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  background: transparent;
+  color: var(--text);
+  border-color: var(--border);
+}
+
+.tend-table-wrap {
+  overflow-x: auto;
+}
+
+.tend-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.925rem;
+}
+
+.tend-table th,
+.tend-table td {
+  text-align: left;
+  vertical-align: top;
+  padding: 10px 8px;
+  border-bottom: 1px solid var(--border);
+}
+
+.tend-table th {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+  color: var(--text-muted);
+}
+
+.tend-table .num {
+  font-variant-numeric: tabular-nums;
+  font-weight: 700;
+}
+
+.tend-badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 999px;
+  font-size: 0.75rem;
+  font-weight: 700;
+  background: var(--surface-2);
+  color: var(--text-muted);
+  white-space: nowrap;
+}
+
+.tend-badge--alta {
+  background: var(--primary-soft);
+  color: var(--primary-strong);
+}
+
+.tend-badge--media {
+  background: color-mix(in srgb, #d97706 18%, transparent);
+  color: #b45309;
+}
+
+@media (prefers-color-scheme: dark) {
+  .tend-badge--media {
+    color: #fbbf24;
+  }
+}
+
+.kanban {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(230px, 1fr);
+  gap: 12px;
+  overflow-x: auto;
+  padding-bottom: 8px;
+}
+
+.kanban__col {
+  background: var(--surface-2);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.kanban__col h3 {
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.kanban__list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  gap: 8px;
+}
+
+.kanban__card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  padding: 10px;
+  font-size: 0.875rem;
+}
+
+.kanban__card p {
+  margin: 6px 0;
+}
+
+.kanban__title {
+  font-weight: 600;
+}
+
+.bmc {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-areas:
+    'parc ativ prop rel seg'
+    'parc rec prop can seg'
+    'cust cust cust rec2 rec2';
+  gap: 8px;
+}
+
+.bmc__block {
+  background: var(--surface-2);
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 0.85rem;
+  min-width: 0;
+}
+
+.bmc__block h3 {
+  font-size: 0.9rem;
+  margin-bottom: 8px;
+  color: var(--primary-strong);
+}
+
+.bmc__block ul {
+  margin: 0;
+  padding-left: 18px;
+}
+
+.bmc__block li + li {
+  margin-top: 4px;
+}
+
+.bmc__block--parcerias_chave { grid-area: parc; }
+.bmc__block--atividades_chave { grid-area: ativ; }
+.bmc__block--recursos_chave { grid-area: rec; }
+.bmc__block--proposta_de_valor { grid-area: prop; }
+.bmc__block--relacionamento { grid-area: rel; }
+.bmc__block--canais { grid-area: can; }
+.bmc__block--segmentos { grid-area: seg; }
+.bmc__block--estrutura_de_custos { grid-area: cust; }
+.bmc__block--fontes_de_receita { grid-area: rec2; }
+
+@media (max-width: 900px) {
+  .bmc {
+    grid-template-columns: 1fr;
+    grid-template-areas: none;
+  }
+
+  .bmc__block {
+    grid-area: auto !important;
+  }
 }
