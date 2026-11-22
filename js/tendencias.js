@@ -1,5 +1,6 @@
 // DOM da página Tendências. Todo texto vindo do JSON entra via textContent (nunca innerHTML).
 import {
+  ARTICLES_URL,
   CANVAS_BLOCKS,
   CATEGORY_LABELS,
   DATA_URL,
@@ -14,6 +15,8 @@ import {
   parseReport,
   safeInternalUrl,
   sortByScore,
+  articleIndex,
+  topicIdOf,
 } from './tendencias-data.js';
 
 const $ = (id) => document.getElementById(id);
@@ -29,6 +32,13 @@ function el(tag, attrs = {}, ...children) {
 }
 
 let report = null;
+let articles = new Map();
+
+/** Link "Ler artigo" quando o portal já publicou um artigo sobre o tema. */
+function articleLink(card) {
+  const a = articles.get(topicIdOf(card.id));
+  return a ? el('a', { class: 'tend-artigo', href: a.url }, 'Ler artigo') : null;
+}
 
 function currentFilters() {
   return {
@@ -78,7 +88,7 @@ function renderRanking(cards) {
         'tr',
         {},
         el('td', { class: 'num' }, formatScore(c.score)),
-        el('td', {}, el('strong', {}, c.topic), el('br'), el('small', { class: 'muted' }, c.suggestedTitle)),
+        el('td', {}, el('strong', {}, c.topic), el('br'), el('small', { class: 'muted' }, c.suggestedTitle), ...[articleLink(c)].filter(Boolean).flatMap((l) => [el('br'), l])),
         el('td', {}, CATEGORY_LABELS[c.category] ?? c.category),
         ativos,
         el('td', {}, c.sources.join(', ')),
@@ -104,6 +114,7 @@ function renderKanban(cards) {
           el('p', { class: 'kanban__title' }, c.suggestedTitle),
           el('p', { class: 'muted' }, `${c.format.replaceAll('_', ' ').toLowerCase()} · keyword: ${c.primaryKeyword}`),
           el('a', { href: safeInternalUrl(c.internalUrl) }, 'Link interno sugerido'),
+          ...[articleLink(c)].filter(Boolean).map((l) => el('p', {}, l)),
         ),
       );
     }
@@ -145,6 +156,12 @@ async function init() {
     $('estado').hidden = false;
     console.error(e);
     return;
+  }
+  try {
+    const res = await fetch(ARTICLES_URL, { cache: 'no-cache' });
+    if (res.ok) articles = articleIndex(await res.json());
+  } catch {
+    // portal de notícias ainda sem artigos: a página funciona sem os links
   }
   const opts = filterOptions(report.cards);
   fillSelect($('f-categoria'), opts.categorias, CATEGORY_LABELS);

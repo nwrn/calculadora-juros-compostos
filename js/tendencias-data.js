@@ -1,6 +1,28 @@
 // Funções puras da página Tendências (sem DOM), testadas em tests/tendencias-data.test.js.
 
 export const DATA_URL = 'data/tendencias/trends-latest.json';
+export const ARTICLES_URL = 'data/noticias/index.json';
+
+/** "20261122-ia-bolha" → "ia-bolha" (tema estável entre execuções). */
+export function topicIdOf(cardId) {
+  const i = (cardId ?? '').indexOf('-');
+  return i < 0 ? cardId : cardId.slice(i + 1);
+}
+
+/**
+ * Índice dos artigos publicados pelo fin-news-publisher: tema → artigo mais recente.
+ * Só aceita URLs internas do portal (o JSON vem de outro repositório).
+ */
+export function articleIndex(list) {
+  const map = new Map();
+  if (!Array.isArray(list)) return map;
+  for (const a of list) {
+    if (!a?.topicId || typeof a.url !== 'string' || !/^\/calculadora-juros-compostos\/noticias\/[\w/.-]+\.html$/.test(a.url)) continue;
+    const prev = map.get(a.topicId);
+    if (!prev || String(a.publishedAt) > String(prev.publishedAt)) map.set(a.topicId, a);
+  }
+  return map;
+}
 
 export const KANBAN_COLUMNS = ['BACKLOG', 'PRIORIZADO', 'EM_PESQUISA', 'EM_REDACAO', 'REVISAO_SEO', 'PUBLICADO'];
 

@@ -48,7 +48,11 @@ tendencias.html     página Tendências (temas em alta + Kanban + Canvas de paut
 js/tendencias-data.js  funções puras da página Tendências (filtros, agrupamentos)
 js/tendencias.js    integração da página Tendências com o DOM
 data/tendencias/    trends-latest.json, .md e .csv publicados pelo fin-trends-scraper
-sitemap.xml         sitemap para o Search Console
+sitemap.xml         índice de sitemaps (envie este no Search Console)
+sitemap-paginas.xml páginas fixas do site
+css/noticias.css    estilos do portal de notícias
+noticias/           portal de notícias, gerado pelo fin-news-publisher (não editar à mão)
+data/noticias/      index.json dos artigos publicados (usado pela página Tendências)
 tests/              testes unitários
 docs/PLANO.md       plano de implementação
 ```

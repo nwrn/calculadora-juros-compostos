@@ -1296,3 +1296,7 @@ code {
     grid-area: auto !important;
   }
 }
+.tend-artigo {
+  font-size: 0.85rem;
+  font-weight: 600;
+}
