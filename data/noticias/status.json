@@ -1,4 +1,74 @@
 [ {
+  "topicId" : "guerra",
+  "cardId" : "20261123-guerra",
+  "slug" : "guerras-e-conflitos-impacto-petr4-prio3",
+  "status" : "PUBLICADO",
+  "title" : "Guerras e conflitos: o que muda para PETR4 e PRIO3",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : "2026-11-23T22:46:15.970328946Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/guerras-e-conflitos-impacto-petr4-prio3.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "ibovespa",
+  "cardId" : "20261123-ibovespa",
+  "slug" : "ibovespa-cai-095-e-perde-165-mil-pontos-com-fiscal",
+  "status" : "REJEITADO",
+  "title" : "Ibovespa cai 0,95% e perde os 165 mil pontos com fiscal",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "3-conformidade: linguagem de recomendação ou promessa: vai subir", "6-revisao: \"O número está dentro do intervalo de tolerância da meta, fixada em 3,00% com banda de 1,50% a 4,50%, mas ainda acima do centro.\": Contradiz os próprios dados citados no parágrafo: o IPCA …" ]
+}, {
+  "topicId" : "petroleo",
+  "cardId" : "20261123-petroleo",
+  "slug" : "petroleo-recua-diplomacia-efeito-petr4-prio3",
+  "status" : "REJEITADO",
+  "title" : "Petróleo recua com trégua diplomática: o efeito em PETR4 e PRIO3",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "1-estrutura: 1126 palavras (aceito: 700 a 1100)" ]
+}, {
+  "topicId" : "agro",
+  "cardId" : "20261123-agro",
+  "slug" : "agronegocio-e-soja-safra-2026-e-investimentos",
+  "status" : "PUBLICADO",
+  "title" : "Agronegócio e soja: guia da safra recorde e dos investimentos",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : "2026-11-23T22:46:15.970328946Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/agronegocio-e-soja-safra-2026-e-investimentos.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "dolar",
+  "cardId" : "20261123-dolar",
+  "slug" : "dolar-testa-r-6-fecha-em-queda-e-o-que-muda-no-bolso",
+  "status" : "PUBLICADO",
+  "title" : "Dólar testa R$ 6, fecha em queda e o que isso muda no seu bolso",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : "2026-11-23T22:46:15.970328946Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/dolar-testa-r-6-fecha-em-queda-e-o-que-muda-no-bolso.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "petrobras",
+  "cardId" : "20261123-petrobras",
+  "slug" : "petrobras-cai-3-petroleo-braskem-plano-de-negocios",
+  "status" : "PUBLICADO",
+  "title" : "Petrobras cai mais de 3%: petróleo, Braskem e plano de negócios",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : "2026-11-23T22:46:15.970328946Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/petrobras-cai-3-petroleo-braskem-plano-de-negocios.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "treasuries",
+  "cardId" : "20261123-treasuries",
+  "slug" : "treasuries-juros-longos-ifix-dolar",
+  "status" : "REJEITADO",
+  "title" : "Treasuries e juros longos: o que muda para IFIX e dólar",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "6-revisao: \"Essa combinação de juro curto em queda e prêmio longo elevado mexe com câmbio, bolsa e fundos imobiliários no Brasil.\": Os dados só documentam recuo no Treasury de 10 anos (de 5,04% em 19…" ]
+}, {
   "topicId" : "sancoes",
   "cardId" : "20261123-sancoes",
   "slug" : "sancoes-economicas-ira-russia-petroleo-petr4",
