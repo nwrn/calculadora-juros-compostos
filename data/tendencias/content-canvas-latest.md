@@ -1,15 +1,15 @@
 # Pautas em alta: mercado financeiro (2026-11-23)
 
-Gerado em 23/11/2026 10:57 (horário de Brasília) · 30 pautas.
+Gerado em 23/11/2026 14:18 (horário de Brasília) · 30 pautas.
 
 ## Contexto de mercado
 
 | Indicador | Valor |
 |---|---|
-| BRL=X (variação no dia) | +0,66% |
-| IFIX.SA (variação no dia) | -0,81% |
-| ^BVSP (variação no dia) | -1,17% |
-| dolar_ptax | 5.8889 |
+| BRL=X (variação no dia) | +0,85% |
+| IFIX.SA (variação no dia) | -1,47% |
+| ^BVSP (variação no dia) | -0,90% |
+| dolar_ptax | 5.9708 |
 | ipca_focus_2026 | 5.1505 |
 | selic_meta | 13.75 |
 
@@ -19,47 +19,49 @@ Gerado em 23/11/2026 10:57 (horário de Brasília) · 30 pautas.
 |---|---|---|---|
 | google-trends | ✅ OK | 80 |  |
 | wikimedia | ✅ OK | 4682 |  |
-| gdelt | ✅ OK | 2291 |  |
+| gdelt | ⚠️ DEGRADED | 2625 | 20261123171500: HTTP 404 em https://data.gdeltproject.org/gdeltv2/20261123171500.gkg.csv.zip |
 | stocktwits | ✅ OK | 10 |  |
-| news | ✅ OK | 425 |  |
+| news | ✅ OK | 455 |  |
+| youtube | ⚠️ DEGRADED | 0 | HTTP 404 em https://nwrn.github.io/calculadora-juros-compostos/data/youtube/signals.json |
 | market:yahoo | ✅ OK | 3 |  |
 | bcb | ✅ OK | 3 |  |
+| portal | ✅ OK | 16 |  |
 
 ## Business Model Canvas de conteúdo
 
 ### Segmentos de clientes
 
 - Investidor atento ao cenário global
+- Investidor de criptoativos
 - Investidor de ações da B3
-- Investidor de renda passiva (FIIs)
 
 ### Proposta de valor
 
 - Explicar o tema do momento e o efeito no bolso do investidor, com dados atualizados e linguagem simples
-- China e economia chinesa: guia completo e como afeta seus investimentos (0,64)
-- Fed e juros nos EUA: guia completo e como afeta seus investimentos (0,51)
-- Dólar: guia completo e como afeta seus investimentos (0,49)
-- Tarifas e guerra comercial: guia completo e como afeta seus investimentos (0,41)
-- Selic: guia completo e como afeta seus investimentos (0,38)
-- Bolsa de valores B3: guia completo e como afeta seus investimentos (0,37)
-- Eleições e risco político: guia completo e como afeta seus investimentos (0,36)
-- Agronegócio e soja: guia completo e como afeta seus investimentos (0,33)
+- Recessão e PIB: guia completo e como afeta seus investimentos (0,43)
+- Bitcoin e criptomoedas: guia completo e como afeta seus investimentos (0,43)
+- China e economia chinesa: guia completo e como afeta seus investimentos (0,42)
+- Treasuries e juros longos: guia completo e como afeta seus investimentos (0,38)
+- Fed e juros nos EUA: guia completo e como afeta seus investimentos (0,37)
+- Petróleo: guia completo e como afeta seus investimentos (0,36)
+- Guerras e conflitos: guia completo e como afeta seus investimentos (0,35)
+- Ibovespa: guia completo e como afeta seus investimentos (0,34)
+- Ouro: guia completo e como afeta seus investimentos (0,33)
+- Eleições e risco político: guia completo e como afeta seus investimentos (0,30)
+- Banco Central Europeu: guia completo e como afeta seus investimentos (0,29)
+- Dólar: guia completo e como afeta seus investimentos (0,28)
+- Minério de ferro: guia completo e como afeta seus investimentos (0,26)
+- Sanções econômicas: guia completo e como afeta seus investimentos (0,26)
+- Inflação nos EUA e no mundo: guia completo e como afeta seus investimentos (0,26)
+- Bolsa de valores B3: guia completo e como afeta seus investimentos (0,23)
+- Agronegócio e soja: guia completo e como afeta seus investimentos (0,22)
 
 ### Canais
 
 - Google orgânico, Google Discover e Google Notícias; redes sociais para distribuir as notícias do dia
-- Inflação nos EUA e no mundo: o que aconteceu e o impacto para IBOV, USD (0,84)
-- Wall Street (S&P 500, Nasdaq): o que aconteceu e o impacto para IBOV (0,84)
-- Ações de IA e big techs: o que aconteceu e o impacto para IBOV (0,82)
-- IPOs e ofertas na bolsa: o que aconteceu e o impacto para o investidor (0,78)
-- Petróleo: o que aconteceu e o impacto para PETR4, PRIO3 (0,70)
-- Guerras e conflitos: o que aconteceu e o impacto para PETR4, PRIO3 (0,68)
-- Banco Central Europeu: o que aconteceu e o impacto para USD (0,64)
-- Petrobras: o que aconteceu e o impacto para PETR4 (0,59)
-- Ibovespa: o que aconteceu e o impacto para IBOV (0,58)
-- Recessão e PIB: o que aconteceu e o impacto para IBOV (0,58)
-- Ouro: o que aconteceu e o impacto para o investidor (0,49)
-- Treasuries e juros longos: o que aconteceu e o impacto para IFIX, USD (0,45)
+- Ações de IA e big techs: o que aconteceu e o impacto para IBOV (0,89)
+- Wall Street (S&P 500, Nasdaq): o que aconteceu e o impacto para IBOV (0,57)
+- Tarifas e guerra comercial: o que aconteceu e o impacto para WEGE3, EMBR3, USD (0,47)
 
 ### Relacionamento com clientes
 
@@ -73,29 +75,29 @@ Gerado em 23/11/2026 10:57 (horário de Brasília) · 30 pautas.
 ### Recursos-chave
 
 - Calculadora de juros compostos, página de cotações (b3-api) e este pipeline de tendências
-- RADL3: cotação, dividendos e o que explica o interesse agora (0,33)
-- Vale: cotação, dividendos e o que explica o interesse agora (0,32)
-- Fundos imobiliários (IFIX): cotação, dividendos e o que explica o interesse agora (0,32)
-- CSN: cotação, dividendos e o que explica o interesse agora (0,31)
-- Itaú Unibanco: cotação, dividendos e o que explica o interesse agora (0,31)
-- Ambev: cotação, dividendos e o que explica o interesse agora (0,31)
-- Embraer: cotação, dividendos e o que explica o interesse agora (0,31)
-- Gerdau: cotação, dividendos e o que explica o interesse agora (0,31)
-- Santander Brasil: cotação, dividendos e o que explica o interesse agora (0,31)
-- Bradesco: cotação, dividendos e o que explica o interesse agora (0,30)
+- IPOs e ofertas na bolsa: cotação, dividendos e o que explica o interesse agora (0,40)
+- Vale: cotação, dividendos e o que explica o interesse agora (0,35)
+- Ambev: cotação, dividendos e o que explica o interesse agora (0,35)
+- Bradesco: cotação, dividendos e o que explica o interesse agora (0,35)
+- Embraer: cotação, dividendos e o que explica o interesse agora (0,35)
+- Gerdau: cotação, dividendos e o que explica o interesse agora (0,35)
+- Itaú Unibanco: cotação, dividendos e o que explica o interesse agora (0,35)
+- CSN: cotação, dividendos e o que explica o interesse agora (0,32)
+- Santander Brasil: cotação, dividendos e o que explica o interesse agora (0,30)
+- Petrobras: cotação, dividendos e o que explica o interesse agora (0,20)
 
 ### Atividades-chave
 
-- Produzir: **Inflação nos EUA e no mundo: o que aconteceu e o impacto para IBOV, USD** (ALTA, score 0,84)
-- Produzir: **Wall Street (S&P 500, Nasdaq): o que aconteceu e o impacto para IBOV** (ALTA, score 0,84)
-- Produzir: **Ações de IA e big techs: o que aconteceu e o impacto para IBOV** (ALTA, score 0,82)
-- Produzir: **IPOs e ofertas na bolsa: o que aconteceu e o impacto para o investidor** (ALTA, score 0,78)
-- Produzir: **Petróleo: o que aconteceu e o impacto para PETR4, PRIO3** (ALTA, score 0,70)
+- Produzir: **Ações de IA e big techs: o que aconteceu e o impacto para IBOV** (ALTA, score 0,89)
+- Produzir: **Wall Street (S&P 500, Nasdaq): o que aconteceu e o impacto para IBOV** (MEDIA, score 0,57)
+- Produzir: **Tarifas e guerra comercial: o que aconteceu e o impacto para WEGE3, EMBR3, USD** (MEDIA, score 0,47)
+- Produzir: **Recessão e PIB: guia completo e como afeta seus investimentos** (MEDIA, score 0,43)
+- Produzir: **Bitcoin e criptomoedas: guia completo e como afeta seus investimentos** (MEDIA, score 0,43)
 - Revisar o SEO das pautas publicadas e atualizar as evergreen com dados novos
 
 ### Parcerias-chave
 
-- Provedores de dados das fontes ativas: google-trends, wikimedia, gdelt, stocktwits, news, market:yahoo, bcb
+- Provedores de dados das fontes ativas: google-trends, wikimedia, gdelt, stocktwits, news, youtube, market:yahoo, bcb, portal
 
 ### Estrutura de custos
 
@@ -104,45 +106,30 @@ Gerado em 23/11/2026 10:57 (horário de Brasília) · 30 pautas.
 
 ## Kanban de pautas
 
-### BACKLOG (22)
+### BACKLOG (16)
 
-| Prioridade | Score | Tema | Título sugerido | Formato | Keyword | Ativos | Link interno |
-|---|---|---|---|---|---|---|---|
-| MEDIA | 0,59 | Petrobras | Petrobras: o que aconteceu e o impacto para PETR4 | NOTICIA | petrobras | PETR4 | cotacoes.html?ticker=PETR4 |
-| MEDIA | 0,58 | Ibovespa | Ibovespa: o que aconteceu e o impacto para IBOV | NOTICIA | ibovespa | IBOV | cotacoes.html |
-| MEDIA | 0,58 | Recessão e PIB | Recessão e PIB: o que aconteceu e o impacto para IBOV | NOTICIA | recessão e pib | IBOV | tendencias.html |
-| MEDIA | 0,51 | Fed e juros nos EUA | Fed e juros nos EUA: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | fed e juros nos eua | IFIX, USD | tendencias.html |
-| MEDIA | 0,49 | Ouro | Ouro: o que aconteceu e o impacto para o investidor | NOTICIA | ouro |  | tendencias.html |
-| MEDIA | 0,49 | Dólar | Dólar: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | dólar | USD | cotacoes.html |
-| MEDIA | 0,45 | Treasuries e juros longos | Treasuries e juros longos: o que aconteceu e o impacto para IFIX, USD | NOTICIA | treasuries e juros longos | IFIX, USD | tendencias.html |
-| MEDIA | 0,41 | Tarifas e guerra comercial | Tarifas e guerra comercial: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | tarifas e guerra comercial | WEGE3, EMBR3, USD | tendencias.html |
-| MEDIA | 0,38 | Selic | Selic: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | selic | IBOV, IFIX | cotacoes.html |
-| MEDIA | 0,37 | Bolsa de valores B3 | Bolsa de valores B3: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | bolsa de valores b3 | IBOV | cotacoes.html |
-| MEDIA | 0,36 | Eleições e risco político | Eleições e risco político: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | eleições e risco político | IBOV, USD | tendencias.html |
-| BAIXA | 0,33 | RADL3 | RADL3: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | radl3 | RADL3 | cotacoes.html?ticker=RADL3 |
-| BAIXA | 0,33 | Agronegócio e soja | Agronegócio e soja: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | agronegócio e soja | SLCE3 | tendencias.html |
-| BAIXA | 0,32 | Vale | Vale: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | vale | VALE3 | cotacoes.html?ticker=VALE3 |
-| BAIXA | 0,32 | Fundos imobiliários (IFIX) | Fundos imobiliários (IFIX): cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | fundos imobiliários (ifix) | IFIX | tendencias.html |
-| BAIXA | 0,31 | CSN | CSN: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | csn | CSNA3 | cotacoes.html?ticker=CSNA3 |
-| BAIXA | 0,31 | Itaú Unibanco | Itaú Unibanco: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | itaú unibanco | ITUB4 | cotacoes.html?ticker=ITUB4 |
-| BAIXA | 0,31 | Ambev | Ambev: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | ambev | ABEV3 | cotacoes.html?ticker=ABEV3 |
-| BAIXA | 0,31 | Embraer | Embraer: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | embraer | EMBR3 | cotacoes.html?ticker=EMBR3 |
-| BAIXA | 0,31 | Gerdau | Gerdau: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | gerdau | GGBR4 | cotacoes.html?ticker=GGBR4 |
-| BAIXA | 0,31 | Santander Brasil | Santander Brasil: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | santander brasil | SANB11 | cotacoes.html?ticker=SANB11 |
-| BAIXA | 0,30 | Bradesco | Bradesco: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | bradesco | BBDC4 | cotacoes.html?ticker=BBDC4 |
+| Prioridade | Score | Tema | Título sugerido | Formato | Keyword | Ativos | Link interno | Situação |
+|---|---|---|---|---|---|---|---|---|
+| MEDIA | 0,42 | China e economia chinesa | China e economia chinesa: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | china e economia chinesa | VALE3 | tendencias.html | coleta atual |
+| MEDIA | 0,38 | Treasuries e juros longos | Treasuries e juros longos: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | treasuries e juros longos | IFIX, USD | tendencias.html | coleta atual |
+| MEDIA | 0,35 | Vale | Vale: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | vale | VALE3 | cotacoes.html?ticker=VALE3 | coleta atual |
+| MEDIA | 0,35 | Ambev | Ambev: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | ambev | ABEV3 | cotacoes.html?ticker=ABEV3 | coleta atual |
+| MEDIA | 0,35 | Bradesco | Bradesco: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | bradesco | BBDC4 | cotacoes.html?ticker=BBDC4 | coleta atual |
+| MEDIA | 0,35 | Embraer | Embraer: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | embraer | EMBR3 | cotacoes.html?ticker=EMBR3 | coleta atual |
+| MEDIA | 0,35 | Gerdau | Gerdau: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | gerdau | GGBR4 | cotacoes.html?ticker=GGBR4 | coleta atual |
+| MEDIA | 0,35 | Itaú Unibanco | Itaú Unibanco: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | itaú unibanco | ITUB4 | cotacoes.html?ticker=ITUB4 | coleta atual |
+| BAIXA | 0,33 | Ouro | Ouro: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | ouro |  | tendencias.html | coleta atual |
+| BAIXA | 0,32 | CSN | CSN: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | csn | CSNA3 | cotacoes.html?ticker=CSNA3 | coleta atual |
+| BAIXA | 0,30 | Santander Brasil | Santander Brasil: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | santander brasil | SANB11 | cotacoes.html?ticker=SANB11 | coleta atual |
+| BAIXA | 0,28 | Dólar | Dólar: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | dólar | USD | cotacoes.html | coleta atual |
+| BAIXA | 0,26 | Minério de ferro | Minério de ferro: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | minério de ferro | VALE3 | tendencias.html | coleta atual |
+| BAIXA | 0,26 | Sanções econômicas | Sanções econômicas: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | sanções econômicas | PETR4 | tendencias.html | coleta atual |
+| BAIXA | 0,23 | Bolsa de valores B3 | Bolsa de valores B3: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | bolsa de valores b3 | IBOV | cotacoes.html | coleta atual |
+| BAIXA | 0,22 | Agronegócio e soja | Agronegócio e soja: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | agronegócio e soja | SLCE3 | tendencias.html | coleta atual |
 
-### PRIORIZADO (8)
+### PRIORIZADO (0)
 
-| Prioridade | Score | Tema | Título sugerido | Formato | Keyword | Ativos | Link interno |
-|---|---|---|---|---|---|---|---|
-| ALTA | 0,84 | Inflação nos EUA e no mundo | Inflação nos EUA e no mundo: o que aconteceu e o impacto para IBOV, USD | NOTICIA | inflação nos eua e no mundo | IBOV, USD | tendencias.html |
-| ALTA | 0,84 | Wall Street (S&P 500, Nasdaq) | Wall Street (S&P 500, Nasdaq): o que aconteceu e o impacto para IBOV | NOTICIA | wall street (s&p 500, nasdaq) | IBOV | tendencias.html |
-| ALTA | 0,82 | Ações de IA e big techs | Ações de IA e big techs: o que aconteceu e o impacto para IBOV | NOTICIA | ações de ia e big techs | IBOV | tendencias.html |
-| ALTA | 0,78 | IPOs e ofertas na bolsa | IPOs e ofertas na bolsa: o que aconteceu e o impacto para o investidor | NOTICIA | ipos e ofertas na bolsa |  | tendencias.html |
-| ALTA | 0,70 | Petróleo | Petróleo: o que aconteceu e o impacto para PETR4, PRIO3 | NOTICIA | petróleo | PETR4, PRIO3 | tendencias.html |
-| ALTA | 0,68 | Guerras e conflitos | Guerras e conflitos: o que aconteceu e o impacto para PETR4, PRIO3 | NOTICIA | guerras e conflitos | PETR4, PRIO3 | tendencias.html |
-| ALTA | 0,64 | Banco Central Europeu | Banco Central Europeu: o que aconteceu e o impacto para USD | NOTICIA | banco central europeu | USD | tendencias.html |
-| ALTA | 0,64 | China e economia chinesa | China e economia chinesa: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | china e economia chinesa | VALE3 | tendencias.html |
+—
 
 ### EM_PESQUISA (0)
 
@@ -156,7 +143,22 @@ Gerado em 23/11/2026 10:57 (horário de Brasília) · 30 pautas.
 
 —
 
-### PUBLICADO (0)
+### PUBLICADO (14)
 
-—
+| Prioridade | Score | Tema | Título sugerido | Formato | Keyword | Ativos | Link interno | Situação |
+|---|---|---|---|---|---|---|---|---|
+| ALTA | 0,89 | Ações de IA e big techs | Ações de IA e big techs: o que aconteceu e o impacto para IBOV | NOTICIA | ações de ia e big techs | IBOV | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/acoes-ia-big-techs-como-afetam-investimentos.html) · publicado em 22/11 18:12 |
+| MEDIA | 0,57 | Wall Street (S&P 500, Nasdaq) | Wall Street (S&P 500, Nasdaq): o que aconteceu e o impacto para IBOV | NOTICIA | wall street (s&p 500, nasdaq) | IBOV | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/sp-500-nasdaq-juros-eua-afeta-b3.html) · publicado em 22/11 14:39 |
+| MEDIA | 0,47 | Tarifas e guerra comercial | Tarifas e guerra comercial: o que aconteceu e o impacto para WEGE3, EMBR3, USD | NOTICIA | tarifas e guerra comercial | WEGE3, EMBR3, USD | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/tarifas-dos-eua-guerra-comercial-wege3-embr3-dolar.html) · publicado em 22/11 18:50 |
+| MEDIA | 0,43 | Recessão e PIB | Recessão e PIB: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | recessão e pib | IBOV | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/pib-desacelera-recessao-america-latina-pressiona-b3.html) · publicado em 22/11 18:12 |
+| MEDIA | 0,43 | Bitcoin e criptomoedas | Bitcoin e criptomoedas: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | bitcoin e criptomoedas |  | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/bitcoin-criptomoedas-guia-investidor.html) · publicado em 22/11 14:39 |
+| MEDIA | 0,40 | IPOs e ofertas na bolsa | IPOs e ofertas na bolsa: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | ipos e ofertas na bolsa |  | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026.html) · publicado em 22/11 14:39 |
+| MEDIA | 0,37 | Fed e juros nos EUA | Fed e juros nos EUA: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | fed e juros nos eua | IFIX, USD | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/fed-juros-eua-guia-completo-efeitos-investimentos-2.html) · publicado em 22/11 19:06 |
+| MEDIA | 0,36 | Petróleo | Petróleo: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | petróleo | PETR4, PRIO3 | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/petroleo-como-afeta-seus-investimentos.html) · publicado em 22/11 14:39 |
+| MEDIA | 0,35 | Guerras e conflitos | Guerras e conflitos: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | guerras e conflitos | PETR4, PRIO3 | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/guerras-e-conflitos-como-afetam-seus-investimentos.html) · publicado em 22/11 14:05 |
+| BAIXA | 0,34 | Ibovespa | Ibovespa: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | ibovespa | IBOV | cotacoes.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/ibovespa-guia-completo-e-como-afeta-seus-investimentos.html) · publicado em 22/11 14:39 |
+| BAIXA | 0,30 | Eleições e risco político | Eleições e risco político: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | eleições e risco político | IBOV, USD | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/eleicoes-risco-politico-como-afeta-investimentos.html) · publicado em 22/11 19:06 |
+| BAIXA | 0,29 | Banco Central Europeu | Banco Central Europeu: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | banco central europeu | USD | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/banco-central-europeu-guia-juros-euro-impactos-brasil.html) · publicado em 22/11 14:39 |
+| BAIXA | 0,26 | Inflação nos EUA e no mundo | Inflação nos EUA e no mundo: guia completo e como afeta seus investimentos | GUIA_EVERGREEN | inflação nos eua e no mundo | IBOV, USD | tendencias.html | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/inflacao-nos-eua-e-no-mundo-o-que-muda-para-ibov-e-usd.html) · publicado em 22/11 18:50 |
+| BAIXA | 0,20 | Petrobras | Petrobras: cotação, dividendos e o que explica o interesse agora | ANALISE_ATIVO | petrobras | PETR4 | cotacoes.html?ticker=PETR4 | coleta atual · [artigo](https://nwrn.github.io/calculadora-juros-compostos/noticias/2026/11/petrobras-plano-us-115-bi-dividendos.html) · publicado em 22/11 14:39 |
 
