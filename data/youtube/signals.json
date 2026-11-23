@@ -1,0 +1,21 @@
+{
+  "schemaVersion" : 1,
+  "generatedAt" : "2026-11-23T17:28:05.993963498Z",
+  "status" : "DEGRADED",
+  "warnings" : [ "transcrição 3rvwKxDYWSw: falha na transcrição de 3rvwKxDYWSw (pt): Could not retrieve transcript for the video: https://www.youtube.com/watch?v=3rvwKxDYWSw.\nReason: YouTube is blocking requests from your ip because it thinks you are a bot" ],
+  "videos" : [ {
+    "videoId" : "3rvwKxDYWSw",
+    "channel" : "artedaguerra",
+    "channelId" : "UCoi9i3ZepHKDhTJRso7_3fw",
+    "url" : "https://www.youtube.com/watch?v=3rvwKxDYWSw",
+    "title" : "Bolsonarista com 49 PROCESSOS  Junta 2 Milhões em Rifa e se Manda do Brasil!!!🏃‍♂️‍➡️🏃‍➡️🏃‍♂️‍➡️🏃‍➡️",
+    "snippet" : "Veja o vídeo anterior:\n   • 148 Brasileiros Já Morreram na Ucrânia. Ma...  \n\nDenuncie as rifas ilegais:\nhttps://www.gov.br/pt-br/servicos/reg...\n\nDenuncie o crime de evasão de divisas:\nhttps://www.mpf.mp.br/o-mpf/unidades/...\nJá está no ar o novo programa do Comandante Robinson na Radio Sputnik, tod",
+    "publishedAt" : "2026-11-17T12:00:00Z",
+    "durationSec" : 0,
+    "views" : 95772,
+    "viewsPerHour" : 640.8,
+    "language" : "",
+    "hasTranscript" : false,
+    "topTerms" : [ ]
+  } ]
+}
