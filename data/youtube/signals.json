@@ -1,21 +1,21 @@
 {
   "schemaVersion" : 1,
-  "generatedAt" : "2026-11-23T19:06:19.625501Z",
-  "status" : "OK",
-  "warnings" : [ ],
+  "generatedAt" : "2026-11-23T19:38:00.638894107Z",
+  "status" : "DEGRADED",
+  "warnings" : [ "transcrição 3rvwKxDYWSw: vídeo 3rvwKxDYWSw indisponível (playabilityStatus=ERROR, reason=O YouTube não é mais compatível com este aplicativo ou dispositivo.)" ],
   "videos" : [ {
     "videoId" : "3rvwKxDYWSw",
     "channel" : "artedaguerra",
     "channelId" : "UCoi9i3ZepHKDhTJRso7_3fw",
     "url" : "https://www.youtube.com/watch?v=3rvwKxDYWSw",
     "title" : "Bolsonarista com 49 PROCESSOS  Junta 2 Milhões em Rifa e se Manda do Brasil!!!🏃‍♂️‍➡️🏃‍➡️🏃‍♂️‍➡️🏃‍➡️",
-    "snippet" : "Veja o vídeo anterior:\nhttps://youtu.be/OCifBM3gUVA\n\nDenuncie as rifas ilegais:\nhttps://www.gov.br/pt-br/servicos/registrar-manifestacao-no-sistema-de-ouvidorias-do-poder-executivo-federal\n\nDenuncie o crime de evasão de divisas:\nhttps://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pg",
-    "publishedAt" : "2026-11-17T23:00:11Z",
-    "durationSec" : 1186,
-    "views" : 96075,
-    "viewsPerHour" : 685.8,
-    "language" : "pt",
-    "hasTranscript" : true,
-    "topTerms" : [ "rifas", "rifa", "dinheiro", "ministerio", "federal", "ministerio publico", "publico", "peter", "ricardo", "albuquerque", "albuquerque pinto", "apurar", "autoridades", "brasileiros", "pinto", "ricardo albuquerque", "ucrania", "video", "mostrar", "tudo", "problema", "risco", "temos", "canal", "cidadao" ]
+    "snippet" : "Veja o vídeo anterior:\n   • 148 Brasileiros Já Morreram na Ucrânia. Ma...  \n\nDenuncie as rifas ilegais:\nhttps://www.gov.br/pt-br/servicos/reg...\n\nDenuncie o crime de evasão de divisas:\nhttps://www.mpf.mp.br/o-mpf/unidades/...\nJá está no ar o novo programa do Comandante Robinson na Radio Sputnik, tod",
+    "publishedAt" : "2026-11-17T12:00:00Z",
+    "durationSec" : 0,
+    "views" : 96159,
+    "viewsPerHour" : 634.2,
+    "language" : "",
+    "hasTranscript" : false,
+    "topTerms" : [ ]
   } ]
 }
