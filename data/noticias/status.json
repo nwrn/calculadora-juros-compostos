@@ -219,6 +219,56 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-guia-completo-e-como-afeta-seus-investimentos-2.html",
   "reasons" : [ ]
 }, {
+  "topicId" : "ia-bolha",
+  "cardId" : "20261122-ia-bolha",
+  "slug" : "acoes-ia-big-techs-guia-investidor",
+  "status" : "REJEITADO",
+  "title" : "Ações de IA e big techs: o que está em jogo para o investidor",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "5-links: nenhum link interno" ]
+}, {
+  "topicId" : "fed",
+  "cardId" : "20261122-fed",
+  "slug" : "fed-juros-eua-decisoes-projecoes-efeitos-brasil",
+  "status" : "REJEITADO",
+  "title" : "Fed e juros nos EUA: decisões, projeções e efeitos no Brasil",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 0,25, 3,75" ]
+}, {
+  "topicId" : "china",
+  "cardId" : "20261122-china",
+  "slug" : "china-economia-chinesa-como-afeta-investimentos",
+  "status" : "REJEITADO",
+  "title" : "China e economia chinesa: como afeta seus investimentos",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 400, 5,89", "6-revisao: \"é o principal destino das exportações brasileiras\": Os dados fornecidos não afirmam que a China é o principal destino das exportações brasileiras; apenas mencionam que as importações chin…", "6-revisao: \"o país é o principal parceiro comercial do Brasil\": Os dados não dizem que a China é o principal parceiro comercial do Brasil; apenas apresentam o valor das importações. Afirmação não sup…" ]
+}, {
+  "topicId" : "recessao",
+  "cardId" : "20261122-recessao",
+  "slug" : "recessao-e-pib-o-que-mudou-e-como-isso-mexe-com-a-b3",
+  "status" : "REJEITADO",
+  "title" : "Recessão e PIB: o que mudou e como isso mexe com a B3",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "6-revisao: \"Chile e Argentina são exemplos recentes de como a recessão afeta a confiança de empresários e consumidores.\": Os dados fornecidos não confirmam que o Chile esteja em recessão. A fonte do …" ]
+}, {
+  "topicId" : "inflacao-global",
+  "cardId" : "20261122-inflacao-global",
+  "slug" : "inflacao-nos-eua-e-no-mundo-efeitos-ibov-usd",
+  "status" : "REJEITADO",
+  "title" : "Inflação nos EUA e no mundo: efeitos para IBOV e USD",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "3-conformidade: linguagem de recomendação ou promessa: garantido" ]
+}, {
   "topicId" : "ipo-ofertas",
   "cardId" : "20261122-ipo-ofertas",
   "slug" : "ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026",
