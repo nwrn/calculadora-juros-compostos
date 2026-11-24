@@ -1,4 +1,34 @@
 [ {
+  "topicId" : "ipo-ofertas",
+  "cardId" : "20261124-ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil",
+  "status" : "PUBLICADO",
+  "title" : "IPOs e ofertas na bolsa: Compass, follow-ons e o que muda",
+  "createdAt" : "2026-11-24T13:35:38.688974507Z",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "bitcoin",
+  "cardId" : "20261124-bitcoin",
+  "slug" : "bitcoin-pf-lavagem-regras-bcb-nivel-us-90-mil",
+  "status" : "PUBLICADO",
+  "title" : "Bitcoin: PF mira lavagem, BCB aperta regras e os US$ 90 mil",
+  "createdAt" : "2026-11-24T13:35:38.688974507Z",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-pf-lavagem-regras-bcb-nivel-us-90-mil.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "ifix",
+  "cardId" : "20261124-ifix",
+  "slug" : "ifix-fundos-imobiliarios-dividendos",
+  "status" : "PUBLICADO",
+  "title" : "IFIX: fundos imobiliários, dividendos e o que olhar agora",
+  "createdAt" : "2026-11-24T13:35:38.688974507Z",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ifix-fundos-imobiliarios-dividendos.html",
+  "reasons" : [ ]
+}, {
   "topicId" : "boj",
   "cardId" : "20261124-boj",
   "slug" : "banco-do-japao-e-iene-guia-para-investidores",
@@ -39,16 +69,6 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/cdb-lci-lca-poupanca-como-simular-rendimento.html",
   "reasons" : [ ]
 }, {
-  "topicId" : "vale",
-  "cardId" : "20261123-vale",
-  "slug" : "vale-mina-de-viga-dividendos-producao-de-minerio",
-  "status" : "PUBLICADO",
-  "title" : "Vale: mina de Viga, dividendos e produção de minério",
-  "createdAt" : "2026-11-24T00:05:01.052901491Z",
-  "publishedAt" : "2026-11-24T00:05:01.052901491Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/vale-mina-de-viga-dividendos-producao-de-minerio.html",
-  "reasons" : [ ]
-}, {
   "topicId" : "treasuries",
   "cardId" : "20261123-treasuries",
   "slug" : "treasuries-juros-longos-efeitos-ifix-dolar",
@@ -59,6 +79,16 @@
   "url" : null,
   "reasons" : [ "1-estrutura: 1273 palavras (aceito: 700 a 1100)" ]
 }, {
+  "topicId" : "vale",
+  "cardId" : "20261123-vale",
+  "slug" : "vale-mina-de-viga-dividendos-producao-de-minerio",
+  "status" : "PUBLICADO",
+  "title" : "Vale: mina de Viga, dividendos e produção de minério",
+  "createdAt" : "2026-11-24T00:05:01.052901491Z",
+  "publishedAt" : "2026-11-24T00:05:01.052901491Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/vale-mina-de-viga-dividendos-producao-de-minerio.html",
+  "reasons" : [ ]
+}, {
   "topicId" : "guerra",
   "cardId" : "20261123-guerra",
   "slug" : "guerras-e-conflitos-impacto-petr4-prio3",
@@ -67,36 +97,6 @@
   "createdAt" : "2026-11-23T22:46:15.970328946Z",
   "publishedAt" : "2026-11-23T22:46:15.970328946Z",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/guerras-e-conflitos-impacto-petr4-prio3.html",
-  "reasons" : [ ]
-}, {
-  "topicId" : "ibovespa",
-  "cardId" : "20261123-ibovespa",
-  "slug" : "ibovespa-cai-095-e-perde-165-mil-pontos-com-fiscal",
-  "status" : "REJEITADO",
-  "title" : "Ibovespa cai 0,95% e perde os 165 mil pontos com fiscal",
-  "createdAt" : "2026-11-23T22:46:15.970328946Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "3-conformidade: linguagem de recomendação ou promessa: vai subir", "6-revisao: \"O número está dentro do intervalo de tolerância da meta, fixada em 3,00% com banda de 1,50% a 4,50%, mas ainda acima do centro.\": Contradiz os próprios dados citados no parágrafo: o IPCA …" ]
-}, {
-  "topicId" : "petroleo",
-  "cardId" : "20261123-petroleo",
-  "slug" : "petroleo-recua-diplomacia-efeito-petr4-prio3",
-  "status" : "REJEITADO",
-  "title" : "Petróleo recua com trégua diplomática: o efeito em PETR4 e PRIO3",
-  "createdAt" : "2026-11-23T22:46:15.970328946Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "1-estrutura: 1126 palavras (aceito: 700 a 1100)" ]
-}, {
-  "topicId" : "agro",
-  "cardId" : "20261123-agro",
-  "slug" : "agronegocio-e-soja-safra-2026-e-investimentos",
-  "status" : "PUBLICADO",
-  "title" : "Agronegócio e soja: guia da safra recorde e dos investimentos",
-  "createdAt" : "2026-11-23T22:46:15.970328946Z",
-  "publishedAt" : "2026-11-23T22:46:15.970328946Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/agronegocio-e-soja-safra-2026-e-investimentos.html",
   "reasons" : [ ]
 }, {
   "topicId" : "dolar",
@@ -109,15 +109,25 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/dolar-testa-r-6-fecha-em-queda-e-o-que-muda-no-bolso.html",
   "reasons" : [ ]
 }, {
-  "topicId" : "petrobras",
-  "cardId" : "20261123-petrobras",
-  "slug" : "petrobras-cai-3-petroleo-braskem-plano-de-negocios",
+  "topicId" : "agro",
+  "cardId" : "20261123-agro",
+  "slug" : "agronegocio-e-soja-safra-2026-e-investimentos",
   "status" : "PUBLICADO",
-  "title" : "Petrobras cai mais de 3%: petróleo, Braskem e plano de negócios",
+  "title" : "Agronegócio e soja: guia da safra recorde e dos investimentos",
   "createdAt" : "2026-11-23T22:46:15.970328946Z",
   "publishedAt" : "2026-11-23T22:46:15.970328946Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/petrobras-cai-3-petroleo-braskem-plano-de-negocios.html",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/agronegocio-e-soja-safra-2026-e-investimentos.html",
   "reasons" : [ ]
+}, {
+  "topicId" : "ibovespa",
+  "cardId" : "20261123-ibovespa",
+  "slug" : "ibovespa-cai-095-e-perde-165-mil-pontos-com-fiscal",
+  "status" : "REJEITADO",
+  "title" : "Ibovespa cai 0,95% e perde os 165 mil pontos com fiscal",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "3-conformidade: linguagem de recomendação ou promessa: vai subir", "6-revisao: \"O número está dentro do intervalo de tolerância da meta, fixada em 3,00% com banda de 1,50% a 4,50%, mas ainda acima do centro.\": Contradiz os próprios dados citados no parágrafo: o IPCA …" ]
 }, {
   "topicId" : "treasuries",
   "cardId" : "20261123-treasuries",
@@ -129,6 +139,26 @@
   "url" : null,
   "reasons" : [ "6-revisao: \"Essa combinação de juro curto em queda e prêmio longo elevado mexe com câmbio, bolsa e fundos imobiliários no Brasil.\": Os dados só documentam recuo no Treasury de 10 anos (de 5,04% em 19…" ]
 }, {
+  "topicId" : "petroleo",
+  "cardId" : "20261123-petroleo",
+  "slug" : "petroleo-recua-diplomacia-efeito-petr4-prio3",
+  "status" : "REJEITADO",
+  "title" : "Petróleo recua com trégua diplomática: o efeito em PETR4 e PRIO3",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "1-estrutura: 1126 palavras (aceito: 700 a 1100)" ]
+}, {
+  "topicId" : "petrobras",
+  "cardId" : "20261123-petrobras",
+  "slug" : "petrobras-cai-3-petroleo-braskem-plano-de-negocios",
+  "status" : "PUBLICADO",
+  "title" : "Petrobras cai mais de 3%: petróleo, Braskem e plano de negócios",
+  "createdAt" : "2026-11-23T22:46:15.970328946Z",
+  "publishedAt" : "2026-11-23T22:46:15.970328946Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/petrobras-cai-3-petroleo-braskem-plano-de-negocios.html",
+  "reasons" : [ ]
+}, {
   "topicId" : "sancoes",
   "cardId" : "20261123-sancoes",
   "slug" : "sancoes-economicas-ira-russia-petroleo-petr4",
@@ -139,15 +169,15 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/sancoes-economicas-ira-russia-petroleo-petr4.html",
   "reasons" : [ ]
 }, {
-  "topicId" : "renda-fixa",
-  "cardId" : "20261122-renda-fixa",
-  "slug" : "renda-fixa-cdb-lci-lca-poupanca-juros-compostos",
+  "topicId" : "treasuries",
+  "cardId" : "20261122-treasuries",
+  "slug" : "treasuries-juros-longos-efeitos-b3-dolar",
   "status" : "REJEITADO",
-  "title" : "Renda fixa: CDB, LCI, LCA e poupança com juros compostos",
+  "title" : "Treasuries e juros longos: entenda os efeitos na B3 e no dólar",
   "createdAt" : "2026-11-22T22:06:56.343812597Z",
   "publishedAt" : null,
   "url" : null,
-  "reasons" : [ "2-numeros: números sem lastro nos dados: 100, 181" ]
+  "reasons" : [ "6-revisao: \"O FMI destacou que a alta dos rendimentos soberanos do G7 aumenta os custos de financiamento e eleva os riscos fiscais.\": Os dados fornecidos apenas indicam que, segundo o FMI, entre feve…" ]
 }, {
   "topicId" : "eleicoes",
   "cardId" : "20261122-eleicoes",
@@ -169,15 +199,25 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/fed-juros-eua-guia-completo-efeitos-investimentos-2.html",
   "reasons" : [ ]
 }, {
-  "topicId" : "treasuries",
-  "cardId" : "20261122-treasuries",
-  "slug" : "treasuries-juros-longos-efeitos-b3-dolar",
+  "topicId" : "renda-fixa",
+  "cardId" : "20261122-renda-fixa",
+  "slug" : "renda-fixa-cdb-lci-lca-poupanca-juros-compostos",
   "status" : "REJEITADO",
-  "title" : "Treasuries e juros longos: entenda os efeitos na B3 e no dólar",
+  "title" : "Renda fixa: CDB, LCI, LCA e poupança com juros compostos",
   "createdAt" : "2026-11-22T22:06:56.343812597Z",
   "publishedAt" : null,
   "url" : null,
-  "reasons" : [ "6-revisao: \"O FMI destacou que a alta dos rendimentos soberanos do G7 aumenta os custos de financiamento e eleva os riscos fiscais.\": Os dados fornecidos apenas indicam que, segundo o FMI, entre feve…" ]
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 100, 181" ]
+}, {
+  "topicId" : "china",
+  "cardId" : "20261122-china",
+  "slug" : "china-economia-chinesa-investimentos-2",
+  "status" : "REJEITADO",
+  "title" : "China e economia chinesa: como afeta seus investimentos",
+  "createdAt" : "2026-11-22T21:50:04.803600556Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "1-estrutura: 642 palavras (aceito: 700 a 1100)", "2-numeros: números sem lastro nos dados: 400", "5-links: nenhum link interno" ]
 }, {
   "topicId" : "tarifas",
   "cardId" : "20261122-tarifas",
@@ -188,6 +228,16 @@
   "publishedAt" : "2026-11-22T21:50:04.803600556Z",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/tarifas-dos-eua-guerra-comercial-wege3-embr3-dolar.html",
   "reasons" : [ ]
+}, {
+  "topicId" : "ouro",
+  "cardId" : "20261122-ouro",
+  "slug" : "ouro-guia-completo-e-como-afeta-seus-investimentos-3",
+  "status" : "REJEITADO",
+  "title" : "Ouro: guia completo e como afeta seus investimentos",
+  "createdAt" : "2026-11-22T21:50:04.803600556Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "6-revisao: \"O investidor precisa apurar os ganhos e pagar o imposto até o último dia útil do mês seguinte à venda.\": Essa afirmação sobre o prazo de pagamento do imposto não está presente nas notas d…" ]
 }, {
   "topicId" : "inflacao-global",
   "cardId" : "20261122-inflacao-global",
@@ -209,35 +259,15 @@
   "url" : null,
   "reasons" : [ "2-numeros: números sem lastro nos dados: 3,75", "3-conformidade: linguagem de recomendação ou promessa: garantido" ]
 }, {
-  "topicId" : "china",
-  "cardId" : "20261122-china",
-  "slug" : "china-economia-chinesa-investimentos-2",
+  "topicId" : "tarifas",
+  "cardId" : "20261122-tarifas",
+  "slug" : "tarifas-e-guerra-comercial-impactos-para-wege3-embr3-e-dolar",
   "status" : "REJEITADO",
-  "title" : "China e economia chinesa: como afeta seus investimentos",
-  "createdAt" : "2026-11-22T21:50:04.803600556Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "1-estrutura: 642 palavras (aceito: 700 a 1100)", "2-numeros: números sem lastro nos dados: 400", "5-links: nenhum link interno" ]
-}, {
-  "topicId" : "ouro",
-  "cardId" : "20261122-ouro",
-  "slug" : "ouro-guia-completo-e-como-afeta-seus-investimentos-3",
-  "status" : "REJEITADO",
-  "title" : "Ouro: guia completo e como afeta seus investimentos",
-  "createdAt" : "2026-11-22T21:50:04.803600556Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "6-revisao: \"O investidor precisa apurar os ganhos e pagar o imposto até o último dia útil do mês seguinte à venda.\": Essa afirmação sobre o prazo de pagamento do imposto não está presente nas notas d…" ]
-}, {
-  "topicId" : "china",
-  "cardId" : "20261122-china",
-  "slug" : "china-e-economia-chinesa-como-afeta-seus-investimentos-2",
-  "status" : "REJEITADO",
-  "title" : "China e economia chinesa: como afeta seus investimentos",
+  "title" : "Tarifas e guerra comercial: impactos para WEGE3, EMBR3 e dólar",
   "createdAt" : "2026-11-22T21:23:48.904360710Z",
   "publishedAt" : null,
   "url" : null,
-  "reasons" : [ "2-numeros: números sem lastro nos dados: 1.648.327, 400", "3-conformidade: linguagem de recomendação ou promessa: recomendacao de compra" ]
+  "reasons" : [ "5-links: nenhum link interno", "6-revisao: \"Já a WEG, com fábricas locais, pode ter menos exposição direta a tarifas sobre exportações.\": A afirmação de que a WEG tem fábricas locais não consta nos dados fornecidos. É um fato não s…" ]
 }, {
   "topicId" : "fed",
   "cardId" : "20261122-fed",
@@ -249,6 +279,16 @@
   "url" : null,
   "reasons" : [ "1-estrutura: título vazio ou com mais de 65 caracteres", "2-numeros: números sem lastro nos dados: 3,75", "3-conformidade: linguagem de recomendação ou promessa: garantida" ]
 }, {
+  "topicId" : "china",
+  "cardId" : "20261122-china",
+  "slug" : "china-e-economia-chinesa-como-afeta-seus-investimentos-2",
+  "status" : "REJEITADO",
+  "title" : "China e economia chinesa: como afeta seus investimentos",
+  "createdAt" : "2026-11-22T21:23:48.904360710Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 1.648.327, 400", "3-conformidade: linguagem de recomendação ou promessa: recomendacao de compra" ]
+}, {
   "topicId" : "ouro",
   "cardId" : "20261122-ouro",
   "slug" : "ouro-guia-completo-e-como-afeta-seus-investimentos-2",
@@ -258,16 +298,6 @@
   "publishedAt" : null,
   "url" : null,
   "reasons" : [ "2-numeros: números sem lastro nos dados: 15,5, 5,10" ]
-}, {
-  "topicId" : "tarifas",
-  "cardId" : "20261122-tarifas",
-  "slug" : "tarifas-e-guerra-comercial-impactos-para-wege3-embr3-e-dolar",
-  "status" : "REJEITADO",
-  "title" : "Tarifas e guerra comercial: impactos para WEGE3, EMBR3 e dólar",
-  "createdAt" : "2026-11-22T21:23:48.904360710Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "5-links: nenhum link interno", "6-revisao: \"Já a WEG, com fábricas locais, pode ter menos exposição direta a tarifas sobre exportações.\": A afirmação de que a WEG tem fábricas locais não consta nos dados fornecidos. É um fato não s…" ]
 }, {
   "topicId" : "inflacao-global",
   "cardId" : "20261122-inflacao-global",
@@ -279,16 +309,6 @@
   "url" : null,
   "reasons" : [ "2-numeros: números sem lastro nos dados: 0,25, 3,75, 4,00" ]
 }, {
-  "topicId" : "tarifas",
-  "cardId" : "20261122-tarifas",
-  "slug" : "tarifas-guerra-comercial-impacto-wege3-embr3-usd-2",
-  "status" : "REJEITADO",
-  "title" : "Tarifas dos EUA: o que muda para WEGE3, EMBR3 e o dólar",
-  "createdAt" : "2026-11-22T21:12:08.337431274Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "6-revisao: \"A decisão de 20 de fevereiro de 2026 derrubou as tarifas baseadas na IEEPA, mas o governo americano reagiu com novas taxas sob a Seção 122 e manteve as sobretaxas de 25% e 12,5% da Seção …" ]
-}, {
   "topicId" : "recessao",
   "cardId" : "20261122-recessao",
   "slug" : "pib-desacelera-recessao-america-latina-pressiona-b3",
@@ -299,15 +319,25 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/pib-desacelera-recessao-america-latina-pressiona-b3.html",
   "reasons" : [ ]
 }, {
-  "topicId" : "ia-bolha",
-  "cardId" : "20261122-ia-bolha",
-  "slug" : "acoes-ia-big-techs-como-afetam-investimentos",
+  "topicId" : "dividendos",
+  "cardId" : "20261122-dividendos",
+  "slug" : "dividendos-guia-completo-e-como-afeta-seus-investimentos-2",
   "status" : "PUBLICADO",
-  "title" : "Ações de IA e big techs: como afetam seus investimentos",
+  "title" : "Dividendos: guia completo e como afeta seus investimentos",
   "createdAt" : "2026-11-22T21:12:08.337431274Z",
   "publishedAt" : "2026-11-22T21:12:08.337431274Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/acoes-ia-big-techs-como-afetam-investimentos.html",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-guia-completo-e-como-afeta-seus-investimentos-2.html",
   "reasons" : [ ]
+}, {
+  "topicId" : "china",
+  "cardId" : "20261122-china",
+  "slug" : "china-como-economia-chinesa-afeta-seus-investimentos",
+  "status" : "REJEITADO",
+  "title" : "China: como a economia chinesa afeta seus investimentos",
+  "createdAt" : "2026-11-22T21:12:08.337431274Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "1-estrutura: 698 palavras (aceito: 700 a 1100)", "2-numeros: números sem lastro nos dados: 400" ]
 }, {
   "topicId" : "ouro",
   "cardId" : "20261122-ouro",
@@ -329,45 +359,25 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/inflacao-nos-eua-e-no-mundo-entenda-efeitos-b3-dolar.html",
   "reasons" : [ ]
 }, {
-  "topicId" : "china",
-  "cardId" : "20261122-china",
-  "slug" : "china-como-economia-chinesa-afeta-seus-investimentos",
-  "status" : "REJEITADO",
-  "title" : "China: como a economia chinesa afeta seus investimentos",
-  "createdAt" : "2026-11-22T21:12:08.337431274Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "1-estrutura: 698 palavras (aceito: 700 a 1100)", "2-numeros: números sem lastro nos dados: 400" ]
-}, {
-  "topicId" : "dividendos",
-  "cardId" : "20261122-dividendos",
-  "slug" : "dividendos-guia-completo-e-como-afeta-seus-investimentos-2",
-  "status" : "PUBLICADO",
-  "title" : "Dividendos: guia completo e como afeta seus investimentos",
-  "createdAt" : "2026-11-22T21:12:08.337431274Z",
-  "publishedAt" : "2026-11-22T21:12:08.337431274Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-guia-completo-e-como-afeta-seus-investimentos-2.html",
-  "reasons" : [ ]
-}, {
   "topicId" : "ia-bolha",
   "cardId" : "20261122-ia-bolha",
-  "slug" : "acoes-ia-big-techs-guia-investidor",
-  "status" : "REJEITADO",
-  "title" : "Ações de IA e big techs: o que está em jogo para o investidor",
-  "createdAt" : "2026-11-22T21:05:04.627013Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "5-links: nenhum link interno" ]
+  "slug" : "acoes-ia-big-techs-como-afetam-investimentos",
+  "status" : "PUBLICADO",
+  "title" : "Ações de IA e big techs: como afetam seus investimentos",
+  "createdAt" : "2026-11-22T21:12:08.337431274Z",
+  "publishedAt" : "2026-11-22T21:12:08.337431274Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/acoes-ia-big-techs-como-afetam-investimentos.html",
+  "reasons" : [ ]
 }, {
-  "topicId" : "fed",
-  "cardId" : "20261122-fed",
-  "slug" : "fed-juros-eua-decisoes-projecoes-efeitos-brasil",
+  "topicId" : "tarifas",
+  "cardId" : "20261122-tarifas",
+  "slug" : "tarifas-guerra-comercial-impacto-wege3-embr3-usd-2",
   "status" : "REJEITADO",
-  "title" : "Fed e juros nos EUA: decisões, projeções e efeitos no Brasil",
-  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "title" : "Tarifas dos EUA: o que muda para WEGE3, EMBR3 e o dólar",
+  "createdAt" : "2026-11-22T21:12:08.337431274Z",
   "publishedAt" : null,
   "url" : null,
-  "reasons" : [ "2-numeros: números sem lastro nos dados: 0,25, 3,75" ]
+  "reasons" : [ "6-revisao: \"A decisão de 20 de fevereiro de 2026 derrubou as tarifas baseadas na IEEPA, mas o governo americano reagiu com novas taxas sob a Seção 122 e manteve as sobretaxas de 25% e 12,5% da Seção …" ]
 }, {
   "topicId" : "china",
   "cardId" : "20261122-china",
@@ -379,16 +389,6 @@
   "url" : null,
   "reasons" : [ "2-numeros: números sem lastro nos dados: 400, 5,89", "6-revisao: \"é o principal destino das exportações brasileiras\": Os dados fornecidos não afirmam que a China é o principal destino das exportações brasileiras; apenas mencionam que as importações chin…", "6-revisao: \"o país é o principal parceiro comercial do Brasil\": Os dados não dizem que a China é o principal parceiro comercial do Brasil; apenas apresentam o valor das importações. Afirmação não sup…" ]
 }, {
-  "topicId" : "recessao",
-  "cardId" : "20261122-recessao",
-  "slug" : "recessao-e-pib-o-que-mudou-e-como-isso-mexe-com-a-b3",
-  "status" : "REJEITADO",
-  "title" : "Recessão e PIB: o que mudou e como isso mexe com a B3",
-  "createdAt" : "2026-11-22T21:05:04.627013Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "6-revisao: \"Chile e Argentina são exemplos recentes de como a recessão afeta a confiança de empresários e consumidores.\": Os dados fornecidos não confirmam que o Chile esteja em recessão. A fonte do …" ]
-}, {
   "topicId" : "inflacao-global",
   "cardId" : "20261122-inflacao-global",
   "slug" : "inflacao-nos-eua-e-no-mundo-efeitos-ibov-usd",
@@ -399,35 +399,55 @@
   "url" : null,
   "reasons" : [ "3-conformidade: linguagem de recomendação ou promessa: garantido" ]
 }, {
-  "topicId" : "ipo-ofertas",
-  "cardId" : "20261122-ipo-ofertas",
-  "slug" : "ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026",
-  "status" : "PUBLICADO",
-  "title" : "IPOs e ofertas na bolsa: entenda o movimento de 2026",
-  "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026.html",
-  "reasons" : [ ]
-}, {
-  "topicId" : "ibovespa",
-  "cardId" : "20261122-ibovespa",
-  "slug" : "ibovespa-guia-completo-e-como-afeta-seus-investimentos",
-  "status" : "PUBLICADO",
-  "title" : "Ibovespa: guia completo e como afeta seus investimentos",
-  "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/ibovespa-guia-completo-e-como-afeta-seus-investimentos.html",
-  "reasons" : [ ]
-}, {
-  "topicId" : "dividendos",
-  "cardId" : "20261122-dividendos",
-  "slug" : "dividendos-guia-completo-e-como-afeta-seus-investimentos",
+  "topicId" : "fed",
+  "cardId" : "20261122-fed",
+  "slug" : "fed-juros-eua-decisoes-projecoes-efeitos-brasil",
   "status" : "REJEITADO",
-  "title" : "Dividendos: guia completo e como afeta seus investimentos",
+  "title" : "Fed e juros nos EUA: decisões, projeções e efeitos no Brasil",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 0,25, 3,75" ]
+}, {
+  "topicId" : "ia-bolha",
+  "cardId" : "20261122-ia-bolha",
+  "slug" : "acoes-ia-big-techs-guia-investidor",
+  "status" : "REJEITADO",
+  "title" : "Ações de IA e big techs: o que está em jogo para o investidor",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "5-links: nenhum link interno" ]
+}, {
+  "topicId" : "recessao",
+  "cardId" : "20261122-recessao",
+  "slug" : "recessao-e-pib-o-que-mudou-e-como-isso-mexe-com-a-b3",
+  "status" : "REJEITADO",
+  "title" : "Recessão e PIB: o que mudou e como isso mexe com a B3",
+  "createdAt" : "2026-11-22T21:05:04.627013Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "6-revisao: \"Chile e Argentina são exemplos recentes de como a recessão afeta a confiança de empresários e consumidores.\": Os dados fornecidos não confirmam que o Chile esteja em recessão. A fonte do …" ]
+}, {
+  "topicId" : "petroleo",
+  "cardId" : "20261122-petroleo",
+  "slug" : "petroleo-como-afeta-seus-investimentos",
+  "status" : "PUBLICADO",
+  "title" : "Petróleo: preço, produção e o efeito nos seus investimentos",
+  "createdAt" : "2026-11-22T17:39:57.883566284Z",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/petroleo-como-afeta-seus-investimentos.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "ia-bolha",
+  "cardId" : "20261122-ia-bolha",
+  "slug" : "acoes-ia-big-techs-rali-impacto-investidor",
+  "status" : "REJEITADO",
+  "title" : "Ações de IA e big techs: o rali e o que ele muda no seu bolso",
   "createdAt" : "2026-11-22T17:39:57.883566284Z",
   "publishedAt" : null,
   "url" : null,
-  "reasons" : [ "2-numeros: números sem lastro nos dados: 15.270" ]
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 3,75" ]
 }, {
   "topicId" : "tarifas",
   "cardId" : "20261122-tarifas",
@@ -439,14 +459,74 @@
   "url" : null,
   "reasons" : [ "6-revisao: \"setores como máquinas, calçados e alimentos\": Os dados do MDIC listam os setores alcançados pela sobretaxa acumulada de 37,5% como máquinas e equipamentos, madeira, calçados, móveis e con…" ]
 }, {
-  "topicId" : "bitcoin",
-  "cardId" : "20261122-bitcoin",
-  "slug" : "bitcoin-criptomoedas-guia-investidor",
+  "topicId" : "fed",
+  "cardId" : "20261122-fed",
+  "slug" : "fed-juros-eua-efeitos-investimentos",
+  "status" : "REJEITADO",
+  "title" : "Fed e juros nos EUA: guia e efeitos nos investimentos",
+  "createdAt" : "2026-11-22T17:39:57.883566284Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "6-revisao: \"O mercado de apostas Kalshi precificava 89,1% de chance de elevação em novembro de 2026\": A chance de elevação refere-se à reunião de dezembro de 2026, conforme a notícia da EconoTimes e …" ]
+}, {
+  "topicId" : "dividendos",
+  "cardId" : "20261122-dividendos",
+  "slug" : "dividendos-guia-completo-e-como-afeta-seus-investimentos",
+  "status" : "REJEITADO",
+  "title" : "Dividendos: guia completo e como afeta seus investimentos",
+  "createdAt" : "2026-11-22T17:39:57.883566284Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 15.270" ]
+}, {
+  "topicId" : "ipo-ofertas",
+  "cardId" : "20261122-ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026",
   "status" : "PUBLICADO",
-  "title" : "Bitcoin e criptomoedas: guia do investidor brasileiro",
+  "title" : "IPOs e ofertas na bolsa: entenda o movimento de 2026",
   "createdAt" : "2026-11-22T17:39:57.883566284Z",
   "publishedAt" : "2026-11-22T17:39:57.883566284Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-criptomoedas-guia-investidor.html",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "petrobras",
+  "cardId" : "20261122-petrobras",
+  "slug" : "petrobras-plano-us-115-bi-dividendos",
+  "status" : "PUBLICADO",
+  "title" : "Petrobras: plano de US$ 115 bi e dividendos no radar",
+  "createdAt" : "2026-11-22T17:39:57.883566284Z",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/petrobras-plano-us-115-bi-dividendos.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "china",
+  "cardId" : "20261122-china",
+  "slug" : "china-e-economia-chinesa-o-que-importa-para-o-investidor",
+  "status" : "REJEITADO",
+  "title" : "China e economia chinesa: o que importa para o investidor",
+  "createdAt" : "2026-11-22T17:39:57.883566284Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 400" ]
+}, {
+  "topicId" : "recessao",
+  "cardId" : "20261122-recessao",
+  "slug" : "pib-brasileiro-desacelera-america-latina-recessao",
+  "status" : "REJEITADO",
+  "title" : "PIB brasileiro desacelera e América Latina vê riscos de recessão",
+  "createdAt" : "2026-11-22T17:39:57.883566284Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "1-estrutura: 664 palavras (aceito: 700 a 1100)" ]
+}, {
+  "topicId" : "ibovespa",
+  "cardId" : "20261122-ibovespa",
+  "slug" : "ibovespa-guia-completo-e-como-afeta-seus-investimentos",
+  "status" : "PUBLICADO",
+  "title" : "Ibovespa: guia completo e como afeta seus investimentos",
+  "createdAt" : "2026-11-22T17:39:57.883566284Z",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ibovespa-guia-completo-e-como-afeta-seus-investimentos.html",
   "reasons" : [ ]
 }, {
   "topicId" : "inflacao-global",
@@ -459,24 +539,14 @@
   "url" : null,
   "reasons" : [ "2-numeros: números sem lastro nos dados: 3,75, 4,00" ]
 }, {
-  "topicId" : "petrobras",
-  "cardId" : "20261122-petrobras",
-  "slug" : "petrobras-plano-us-115-bi-dividendos",
+  "topicId" : "wall-street",
+  "cardId" : "20261122-wall-street",
+  "slug" : "sp-500-nasdaq-juros-eua-afeta-b3",
   "status" : "PUBLICADO",
-  "title" : "Petrobras: plano de US$ 115 bi e dividendos no radar",
+  "title" : "S&P 500, Nasdaq e juros nos EUA: como isso afeta a B3",
   "createdAt" : "2026-11-22T17:39:57.883566284Z",
   "publishedAt" : "2026-11-22T17:39:57.883566284Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/petrobras-plano-us-115-bi-dividendos.html",
-  "reasons" : [ ]
-}, {
-  "topicId" : "petroleo",
-  "cardId" : "20261122-petroleo",
-  "slug" : "petroleo-como-afeta-seus-investimentos",
-  "status" : "PUBLICADO",
-  "title" : "Petróleo: preço, produção e o efeito nos seus investimentos",
-  "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/petroleo-como-afeta-seus-investimentos.html",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/sp-500-nasdaq-juros-eua-afeta-b3.html",
   "reasons" : [ ]
 }, {
   "topicId" : "ouro",
@@ -489,46 +559,6 @@
   "url" : null,
   "reasons" : [ "6-revisao: \"O Banco Central do Brasil registrou 5,544 mil onças troy de ouro nas reservas internacionais em outubro de 2026\": Número com formatação incorreta: os dados indicam 5.544 mil onças troy (p…" ]
 }, {
-  "topicId" : "china",
-  "cardId" : "20261122-china",
-  "slug" : "china-e-economia-chinesa-o-que-importa-para-o-investidor",
-  "status" : "REJEITADO",
-  "title" : "China e economia chinesa: o que importa para o investidor",
-  "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "2-numeros: números sem lastro nos dados: 400" ]
-}, {
-  "topicId" : "ia-bolha",
-  "cardId" : "20261122-ia-bolha",
-  "slug" : "acoes-ia-big-techs-rali-impacto-investidor",
-  "status" : "REJEITADO",
-  "title" : "Ações de IA e big techs: o rali e o que ele muda no seu bolso",
-  "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "2-numeros: números sem lastro nos dados: 3,75" ]
-}, {
-  "topicId" : "wall-street",
-  "cardId" : "20261122-wall-street",
-  "slug" : "sp-500-nasdaq-juros-eua-afeta-b3",
-  "status" : "PUBLICADO",
-  "title" : "S&P 500, Nasdaq e juros nos EUA: como isso afeta a B3",
-  "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/sp-500-nasdaq-juros-eua-afeta-b3.html",
-  "reasons" : [ ]
-}, {
-  "topicId" : "fed",
-  "cardId" : "20261122-fed",
-  "slug" : "fed-juros-eua-efeitos-investimentos",
-  "status" : "REJEITADO",
-  "title" : "Fed e juros nos EUA: guia e efeitos nos investimentos",
-  "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "6-revisao: \"O mercado de apostas Kalshi precificava 89,1% de chance de elevação em novembro de 2026\": A chance de elevação refere-se à reunião de dezembro de 2026, conforme a notícia da EconoTimes e …" ]
-}, {
   "topicId" : "bce",
   "cardId" : "20261122-bce",
   "slug" : "banco-central-europeu-guia-juros-euro-impactos-brasil",
@@ -539,15 +569,15 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/banco-central-europeu-guia-juros-euro-impactos-brasil.html",
   "reasons" : [ ]
 }, {
-  "topicId" : "recessao",
-  "cardId" : "20261122-recessao",
-  "slug" : "pib-brasileiro-desacelera-america-latina-recessao",
-  "status" : "REJEITADO",
-  "title" : "PIB brasileiro desacelera e América Latina vê riscos de recessão",
+  "topicId" : "bitcoin",
+  "cardId" : "20261122-bitcoin",
+  "slug" : "bitcoin-criptomoedas-guia-investidor",
+  "status" : "PUBLICADO",
+  "title" : "Bitcoin e criptomoedas: guia do investidor brasileiro",
   "createdAt" : "2026-11-22T17:39:57.883566284Z",
-  "publishedAt" : null,
-  "url" : null,
-  "reasons" : [ "1-estrutura: 664 palavras (aceito: 700 a 1100)" ]
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-criptomoedas-guia-investidor.html",
+  "reasons" : [ ]
 }, {
   "topicId" : "ipo-ofertas",
   "cardId" : "20261122-ipo-ofertas",
