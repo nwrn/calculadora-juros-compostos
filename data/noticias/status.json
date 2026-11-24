@@ -1,4 +1,14 @@
 [ {
+  "topicId" : "minerio",
+  "cardId" : "20261123-minerio",
+  "slug" : "minerio-de-ferro-guia-mercado-vale-dinheiro",
+  "status" : "REJEITADO",
+  "title" : "Minério de ferro: guia do mercado, da Vale e do seu dinheiro",
+  "createdAt" : "2026-11-24T00:20:10.009494984Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "6-revisao: \"Exportação recorde e a conta da CFEM\": O título da seção afirma que a exportação de minério de ferro foi recorde, mas nenhum dado disponível sustenta isso. A nota de pesquisa diz apenas q…" ]
+}, {
   "topicId" : "renda-fixa",
   "cardId" : "20261123-renda-fixa",
   "slug" : "cdb-lci-lca-poupanca-como-simular-rendimento",
