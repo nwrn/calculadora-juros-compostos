@@ -1,4 +1,11 @@
 [ {
+  "topicId" : "bradesco",
+  "slug" : "bradesco-ceo-ajuste-fiscal-lucro-3t26-bbdc4",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bradesco-ceo-ajuste-fiscal-lucro-3t26-bbdc4.html",
+  "title" : "Bradesco: CEO cobra ajuste fiscal e lucro de R$ 7,11 bi no 3T26",
+  "category" : "ACOES",
+  "publishedAt" : "2026-11-24T17:19:53.457767709Z"
+}, {
   "topicId" : "dividendos",
   "slug" : "dividendos-petrobras-irrf-jcp-data-com",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-petrobras-irrf-jcp-data-com.html",
@@ -13,13 +20,6 @@
   "category" : "MACRO_GLOBAL",
   "publishedAt" : "2026-11-24T16:15:12.107420798Z"
 }, {
-  "topicId" : "ifix",
-  "slug" : "ifix-fundos-imobiliarios-dividendos",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/ifix-fundos-imobiliarios-dividendos.html",
-  "title" : "IFIX: fundos imobiliários, dividendos e o que olhar agora",
-  "category" : "FII",
-  "publishedAt" : "2026-11-24T13:35:38.688974507Z"
-}, {
   "topicId" : "ipo-ofertas",
   "slug" : "ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil.html",
@@ -32,6 +32,13 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-pf-lavagem-regras-bcb-nivel-us-90-mil.html",
   "title" : "Bitcoin: PF mira lavagem, BCB aperta regras e os US$ 90 mil",
   "category" : "CRIPTO",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z"
+}, {
+  "topicId" : "ifix",
+  "slug" : "ifix-fundos-imobiliarios-dividendos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ifix-fundos-imobiliarios-dividendos.html",
+  "title" : "IFIX: fundos imobiliários, dividendos e o que olhar agora",
+  "category" : "FII",
   "publishedAt" : "2026-11-24T13:35:38.688974507Z"
 }, {
   "topicId" : "boj",
@@ -69,18 +76,18 @@
   "category" : "GEOPOLITICA",
   "publishedAt" : "2026-11-23T22:46:15.970328946Z"
 }, {
-  "topicId" : "agro",
-  "slug" : "agronegocio-e-soja-safra-2026-e-investimentos",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/agronegocio-e-soja-safra-2026-e-investimentos.html",
-  "title" : "Agronegócio e soja: guia da safra recorde e dos investimentos",
-  "category" : "COMMODITIES",
-  "publishedAt" : "2026-11-23T22:46:15.970328946Z"
-}, {
   "topicId" : "dolar",
   "slug" : "dolar-testa-r-6-fecha-em-queda-e-o-que-muda-no-bolso",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/dolar-testa-r-6-fecha-em-queda-e-o-que-muda-no-bolso.html",
   "title" : "Dólar testa R$ 6, fecha em queda e o que isso muda no seu bolso",
   "category" : "MERCADO_BR",
+  "publishedAt" : "2026-11-23T22:46:15.970328946Z"
+}, {
+  "topicId" : "agro",
+  "slug" : "agronegocio-e-soja-safra-2026-e-investimentos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/agronegocio-e-soja-safra-2026-e-investimentos.html",
+  "title" : "Agronegócio e soja: guia da safra recorde e dos investimentos",
+  "category" : "COMMODITIES",
   "publishedAt" : "2026-11-23T22:46:15.970328946Z"
 }, {
   "topicId" : "petrobras",
@@ -132,11 +139,11 @@
   "category" : "MACRO_GLOBAL",
   "publishedAt" : "2026-11-22T21:12:08.337431274Z"
 }, {
-  "topicId" : "ia-bolha",
-  "slug" : "acoes-ia-big-techs-como-afetam-investimentos",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/acoes-ia-big-techs-como-afetam-investimentos.html",
-  "title" : "Ações de IA e big techs: como afetam seus investimentos",
-  "category" : "MACRO_GLOBAL",
+  "topicId" : "dividendos",
+  "slug" : "dividendos-guia-completo-e-como-afeta-seus-investimentos-2",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-guia-completo-e-como-afeta-seus-investimentos-2.html",
+  "title" : "Dividendos: guia completo e como afeta seus investimentos",
+  "category" : "MERCADO_BR",
   "publishedAt" : "2026-11-22T21:12:08.337431274Z"
 }, {
   "topicId" : "inflacao-global",
@@ -146,32 +153,25 @@
   "category" : "MACRO_GLOBAL",
   "publishedAt" : "2026-11-22T21:12:08.337431274Z"
 }, {
-  "topicId" : "dividendos",
-  "slug" : "dividendos-guia-completo-e-como-afeta-seus-investimentos-2",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-guia-completo-e-como-afeta-seus-investimentos-2.html",
-  "title" : "Dividendos: guia completo e como afeta seus investimentos",
-  "category" : "MERCADO_BR",
+  "topicId" : "ia-bolha",
+  "slug" : "acoes-ia-big-techs-como-afetam-investimentos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/acoes-ia-big-techs-como-afetam-investimentos.html",
+  "title" : "Ações de IA e big techs: como afetam seus investimentos",
+  "category" : "MACRO_GLOBAL",
   "publishedAt" : "2026-11-22T21:12:08.337431274Z"
+}, {
+  "topicId" : "petroleo",
+  "slug" : "petroleo-como-afeta-seus-investimentos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/petroleo-como-afeta-seus-investimentos.html",
+  "title" : "Petróleo: preço, produção e o efeito nos seus investimentos",
+  "category" : "COMMODITIES",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
 }, {
   "topicId" : "ipo-ofertas",
   "slug" : "ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-entenda-o-movimento-de-2026.html",
   "title" : "IPOs e ofertas na bolsa: entenda o movimento de 2026",
   "category" : "ACOES",
-  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
-}, {
-  "topicId" : "ibovespa",
-  "slug" : "ibovespa-guia-completo-e-como-afeta-seus-investimentos",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/ibovespa-guia-completo-e-como-afeta-seus-investimentos.html",
-  "title" : "Ibovespa: guia completo e como afeta seus investimentos",
-  "category" : "MERCADO_BR",
-  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
-}, {
-  "topicId" : "bitcoin",
-  "slug" : "bitcoin-criptomoedas-guia-investidor",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-criptomoedas-guia-investidor.html",
-  "title" : "Bitcoin e criptomoedas: guia do investidor brasileiro",
-  "category" : "CRIPTO",
   "publishedAt" : "2026-11-22T17:39:57.883566284Z"
 }, {
   "topicId" : "petrobras",
@@ -181,11 +181,11 @@
   "category" : "ACOES",
   "publishedAt" : "2026-11-22T17:39:57.883566284Z"
 }, {
-  "topicId" : "petroleo",
-  "slug" : "petroleo-como-afeta-seus-investimentos",
-  "url" : "/calculadora-juros-compostos/noticias/2026/11/petroleo-como-afeta-seus-investimentos.html",
-  "title" : "Petróleo: preço, produção e o efeito nos seus investimentos",
-  "category" : "COMMODITIES",
+  "topicId" : "ibovespa",
+  "slug" : "ibovespa-guia-completo-e-como-afeta-seus-investimentos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ibovespa-guia-completo-e-como-afeta-seus-investimentos.html",
+  "title" : "Ibovespa: guia completo e como afeta seus investimentos",
+  "category" : "MERCADO_BR",
   "publishedAt" : "2026-11-22T17:39:57.883566284Z"
 }, {
   "topicId" : "wall-street",
@@ -200,6 +200,13 @@
   "url" : "/calculadora-juros-compostos/noticias/2026/11/banco-central-europeu-guia-juros-euro-impactos-brasil.html",
   "title" : "Banco Central Europeu: entenda juros, euro e impactos no Brasil",
   "category" : "MACRO_GLOBAL",
+  "publishedAt" : "2026-11-22T17:39:57.883566284Z"
+}, {
+  "topicId" : "bitcoin",
+  "slug" : "bitcoin-criptomoedas-guia-investidor",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-criptomoedas-guia-investidor.html",
+  "title" : "Bitcoin e criptomoedas: guia do investidor brasileiro",
+  "category" : "CRIPTO",
   "publishedAt" : "2026-11-22T17:39:57.883566284Z"
 }, {
   "topicId" : "guerra",
