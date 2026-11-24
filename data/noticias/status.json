@@ -1,4 +1,34 @@
 [ {
+  "topicId" : "renda-fixa",
+  "cardId" : "20261123-renda-fixa",
+  "slug" : "cdb-lci-lca-poupanca-como-simular-rendimento",
+  "status" : "PUBLICADO",
+  "title" : "CDB, LCI, LCA ou poupança: como simular o rendimento",
+  "createdAt" : "2026-11-24T00:05:01.052901491Z",
+  "publishedAt" : "2026-11-24T00:05:01.052901491Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/cdb-lci-lca-poupanca-como-simular-rendimento.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "vale",
+  "cardId" : "20261123-vale",
+  "slug" : "vale-mina-de-viga-dividendos-producao-de-minerio",
+  "status" : "PUBLICADO",
+  "title" : "Vale: mina de Viga, dividendos e produção de minério",
+  "createdAt" : "2026-11-24T00:05:01.052901491Z",
+  "publishedAt" : "2026-11-24T00:05:01.052901491Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/vale-mina-de-viga-dividendos-producao-de-minerio.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "treasuries",
+  "cardId" : "20261123-treasuries",
+  "slug" : "treasuries-juros-longos-efeitos-ifix-dolar",
+  "status" : "REJEITADO",
+  "title" : "Treasuries e juros longos: o que são e por que afetam o Brasil",
+  "createdAt" : "2026-11-24T00:05:01.052901491Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "1-estrutura: 1273 palavras (aceito: 700 a 1100)" ]
+}, {
   "topicId" : "guerra",
   "cardId" : "20261123-guerra",
   "slug" : "guerras-e-conflitos-impacto-petr4-prio3",
