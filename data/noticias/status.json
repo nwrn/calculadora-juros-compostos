@@ -1,6 +1,16 @@
 [ {
   "topicId" : "minerio",
   "cardId" : "20261123-minerio",
+  "slug" : "minerio-de-ferro-guia-mercado-vale3",
+  "status" : "PUBLICADO",
+  "title" : "Minério de ferro: o que move o preço e o efeito na Vale3",
+  "createdAt" : "2026-11-24T01:29:01.666225677Z",
+  "publishedAt" : "2026-11-24T01:29:01.666225677Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/minerio-de-ferro-guia-mercado-vale3.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "minerio",
+  "cardId" : "20261123-minerio",
   "slug" : "minerio-de-ferro-guia-mercado-vale-dinheiro",
   "status" : "REJEITADO",
   "title" : "Minério de ferro: guia do mercado, da Vale e do seu dinheiro",
