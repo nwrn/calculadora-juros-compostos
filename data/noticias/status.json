@@ -1,4 +1,14 @@
 [ {
+  "topicId" : "boj",
+  "cardId" : "20261124-boj",
+  "slug" : "banco-do-japao-e-iene-guia-para-investidores",
+  "status" : "PUBLICADO",
+  "title" : "Banco do Japão e iene: por que isso mexe com seu dinheiro",
+  "createdAt" : "2026-11-24T03:18:19.796694255Z",
+  "publishedAt" : "2026-11-24T03:18:19.796694255Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/banco-do-japao-e-iene-guia-para-investidores.html",
+  "reasons" : [ ]
+}, {
   "topicId" : "minerio",
   "cardId" : "20261123-minerio",
   "slug" : "minerio-de-ferro-guia-mercado-vale3",
