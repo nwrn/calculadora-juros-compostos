@@ -1,4 +1,44 @@
 [ {
+  "topicId" : "ipo-ofertas",
+  "cardId" : "20261125-ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-dados-2025-2026",
+  "status" : "PUBLICADO",
+  "title" : "IPOs e ofertas na bolsa: o que os dados de 2025 e 2026 mostram",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-dados-2025-2026.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "guerra",
+  "cardId" : "20261125-guerra",
+  "slug" : "petroleo-em-guerra-russia-brent-efeito-bolsa",
+  "status" : "REJEITADO",
+  "title" : "Petróleo em guerra: Rússia, Brent e o efeito na Bolsa",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 120" ]
+}, {
+  "topicId" : "recessao",
+  "cardId" : "20261125-recessao",
+  "slug" : "pib-eua-revisado-4-3-recessao-impacto-ibovespa",
+  "status" : "PUBLICADO",
+  "title" : "PIB dos EUA revisado a 4,3%: e o debate sobre recessão?",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/pib-eua-revisado-4-3-recessao-impacto-ibovespa.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "ia-bolha",
+  "cardId" : "20261125-ia-bolha",
+  "slug" : "acoes-de-ia-e-big-techs-rali-perde-folego",
+  "status" : "PUBLICADO",
+  "title" : "Ações de IA e big techs: por que o rali perdeu fôlego",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/acoes-de-ia-e-big-techs-rali-perde-folego.html",
+  "reasons" : [ ]
+}, {
   "topicId" : "bradesco",
   "cardId" : "20261124-bradesco",
   "slug" : "bradesco-ceo-ajuste-fiscal-lucro-3t26-bbdc4",
