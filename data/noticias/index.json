@@ -1,4 +1,74 @@
 [ {
+  "topicId" : "ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-dados-2025-2026",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-dados-2025-2026.html",
+  "title" : "IPOs e ofertas na bolsa: o que os dados de 2025 e 2026 mostram",
+  "category" : "ACOES",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z"
+}, {
+  "topicId" : "recessao",
+  "slug" : "pib-eua-revisado-4-3-recessao-impacto-ibovespa",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/pib-eua-revisado-4-3-recessao-impacto-ibovespa.html",
+  "title" : "PIB dos EUA revisado a 4,3%: e o debate sobre recessão?",
+  "category" : "MACRO_GLOBAL",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z"
+}, {
+  "topicId" : "ia-bolha",
+  "slug" : "acoes-de-ia-e-big-techs-rali-perde-folego",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/acoes-de-ia-e-big-techs-rali-perde-folego.html",
+  "title" : "Ações de IA e big techs: por que o rali perdeu fôlego",
+  "category" : "MACRO_GLOBAL",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z"
+}, {
+  "topicId" : "bradesco",
+  "slug" : "bradesco-ceo-ajuste-fiscal-lucro-3t26-bbdc4",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bradesco-ceo-ajuste-fiscal-lucro-3t26-bbdc4.html",
+  "title" : "Bradesco: CEO cobra ajuste fiscal e lucro de R$ 7,11 bi no 3T26",
+  "category" : "ACOES",
+  "publishedAt" : "2026-11-24T17:19:53.457767709Z"
+}, {
+  "topicId" : "dividendos",
+  "slug" : "dividendos-petrobras-irrf-jcp-data-com",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-petrobras-irrf-jcp-data-com.html",
+  "title" : "Dividendos: plano da Petrobras, IRRF e data-com",
+  "category" : "MERCADO_BR",
+  "publishedAt" : "2026-11-24T16:15:12.107420798Z"
+}, {
+  "topicId" : "wall-street",
+  "slug" : "wall-street-cai-nvidia-ia-impacto-ibovespa",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/wall-street-cai-nvidia-ia-impacto-ibovespa.html",
+  "title" : "Wall Street cai com Nvidia e IA: o que muda no Ibovespa",
+  "category" : "MACRO_GLOBAL",
+  "publishedAt" : "2026-11-24T16:15:12.107420798Z"
+}, {
+  "topicId" : "ifix",
+  "slug" : "ifix-fundos-imobiliarios-dividendos",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ifix-fundos-imobiliarios-dividendos.html",
+  "title" : "IFIX: fundos imobiliários, dividendos e o que olhar agora",
+  "category" : "FII",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z"
+}, {
+  "topicId" : "ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil.html",
+  "title" : "IPOs e ofertas na bolsa: Compass, follow-ons e o que muda",
+  "category" : "ACOES",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z"
+}, {
+  "topicId" : "bitcoin",
+  "slug" : "bitcoin-pf-lavagem-regras-bcb-nivel-us-90-mil",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-pf-lavagem-regras-bcb-nivel-us-90-mil.html",
+  "title" : "Bitcoin: PF mira lavagem, BCB aperta regras e os US$ 90 mil",
+  "category" : "CRIPTO",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z"
+}, {
+  "topicId" : "boj",
+  "slug" : "banco-do-japao-e-iene-guia-para-investidores",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/banco-do-japao-e-iene-guia-para-investidores.html",
+  "title" : "Banco do Japão e iene: por que isso mexe com seu dinheiro",
+  "category" : "MACRO_GLOBAL",
+  "publishedAt" : "2026-11-24T03:18:19.796694255Z"
+}, {
   "topicId" : "minerio",
   "slug" : "minerio-de-ferro-guia-mercado-vale3",
   "url" : "/calculadora-juros-compostos/noticias/2026/11/minerio-de-ferro-guia-mercado-vale3.html",

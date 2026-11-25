@@ -1,4 +1,114 @@
 [ {
+  "topicId" : "ipo-ofertas",
+  "cardId" : "20261125-ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-dados-2025-2026",
+  "status" : "PUBLICADO",
+  "title" : "IPOs e ofertas na bolsa: o que os dados de 2025 e 2026 mostram",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-dados-2025-2026.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "guerra",
+  "cardId" : "20261125-guerra",
+  "slug" : "petroleo-em-guerra-russia-brent-efeito-bolsa",
+  "status" : "REJEITADO",
+  "title" : "Petróleo em guerra: Rússia, Brent e o efeito na Bolsa",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : null,
+  "url" : null,
+  "reasons" : [ "2-numeros: números sem lastro nos dados: 120" ]
+}, {
+  "topicId" : "recessao",
+  "cardId" : "20261125-recessao",
+  "slug" : "pib-eua-revisado-4-3-recessao-impacto-ibovespa",
+  "status" : "PUBLICADO",
+  "title" : "PIB dos EUA revisado a 4,3%: e o debate sobre recessão?",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/pib-eua-revisado-4-3-recessao-impacto-ibovespa.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "ia-bolha",
+  "cardId" : "20261125-ia-bolha",
+  "slug" : "acoes-de-ia-e-big-techs-rali-perde-folego",
+  "status" : "PUBLICADO",
+  "title" : "Ações de IA e big techs: por que o rali perdeu fôlego",
+  "createdAt" : "2026-11-25T19:56:07.340262239Z",
+  "publishedAt" : "2026-11-25T19:56:07.340262239Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/acoes-de-ia-e-big-techs-rali-perde-folego.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "bradesco",
+  "cardId" : "20261124-bradesco",
+  "slug" : "bradesco-ceo-ajuste-fiscal-lucro-3t26-bbdc4",
+  "status" : "PUBLICADO",
+  "title" : "Bradesco: CEO cobra ajuste fiscal e lucro de R$ 7,11 bi no 3T26",
+  "createdAt" : "2026-11-24T17:19:53.457767709Z",
+  "publishedAt" : "2026-11-24T17:19:53.457767709Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bradesco-ceo-ajuste-fiscal-lucro-3t26-bbdc4.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "dividendos",
+  "cardId" : "20261124-dividendos",
+  "slug" : "dividendos-petrobras-irrf-jcp-data-com",
+  "status" : "PUBLICADO",
+  "title" : "Dividendos: plano da Petrobras, IRRF e data-com",
+  "createdAt" : "2026-11-24T16:15:12.107420798Z",
+  "publishedAt" : "2026-11-24T16:15:12.107420798Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/dividendos-petrobras-irrf-jcp-data-com.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "wall-street",
+  "cardId" : "20261124-wall-street",
+  "slug" : "wall-street-cai-nvidia-ia-impacto-ibovespa",
+  "status" : "PUBLICADO",
+  "title" : "Wall Street cai com Nvidia e IA: o que muda no Ibovespa",
+  "createdAt" : "2026-11-24T16:15:12.107420798Z",
+  "publishedAt" : "2026-11-24T16:15:12.107420798Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/wall-street-cai-nvidia-ia-impacto-ibovespa.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "ifix",
+  "cardId" : "20261124-ifix",
+  "slug" : "ifix-fundos-imobiliarios-dividendos",
+  "status" : "PUBLICADO",
+  "title" : "IFIX: fundos imobiliários, dividendos e o que olhar agora",
+  "createdAt" : "2026-11-24T13:35:38.688974507Z",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ifix-fundos-imobiliarios-dividendos.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "ipo-ofertas",
+  "cardId" : "20261124-ipo-ofertas",
+  "slug" : "ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil",
+  "status" : "PUBLICADO",
+  "title" : "IPOs e ofertas na bolsa: Compass, follow-ons e o que muda",
+  "createdAt" : "2026-11-24T13:35:38.688974507Z",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/ipos-e-ofertas-na-bolsa-compass-follow-ons-regime-facil.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "bitcoin",
+  "cardId" : "20261124-bitcoin",
+  "slug" : "bitcoin-pf-lavagem-regras-bcb-nivel-us-90-mil",
+  "status" : "PUBLICADO",
+  "title" : "Bitcoin: PF mira lavagem, BCB aperta regras e os US$ 90 mil",
+  "createdAt" : "2026-11-24T13:35:38.688974507Z",
+  "publishedAt" : "2026-11-24T13:35:38.688974507Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/bitcoin-pf-lavagem-regras-bcb-nivel-us-90-mil.html",
+  "reasons" : [ ]
+}, {
+  "topicId" : "boj",
+  "cardId" : "20261124-boj",
+  "slug" : "banco-do-japao-e-iene-guia-para-investidores",
+  "status" : "PUBLICADO",
+  "title" : "Banco do Japão e iene: por que isso mexe com seu dinheiro",
+  "createdAt" : "2026-11-24T03:18:19.796694255Z",
+  "publishedAt" : "2026-11-24T03:18:19.796694255Z",
+  "url" : "/calculadora-juros-compostos/noticias/2026/11/banco-do-japao-e-iene-guia-para-investidores.html",
+  "reasons" : [ ]
+}, {
   "topicId" : "minerio",
   "cardId" : "20261123-minerio",
   "slug" : "minerio-de-ferro-guia-mercado-vale3",
